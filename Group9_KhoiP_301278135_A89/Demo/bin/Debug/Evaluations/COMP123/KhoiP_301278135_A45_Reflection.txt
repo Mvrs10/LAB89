@@ -1,0 +1,25 @@
+COMP-123 (Sec.008)
+Programming 2
+Professor: Jake Nesovic
+Student name: Minh Khoi Phan
+Student ID: 301278135
+
+LAB 45_TaskManagementSystem REFLECTION
+I. Design Choices
+
+I follow the diagrams by the increasing order of challenges and the order that makes sense to me:
+enum EvaluationType -> class Task -> static class TaskManager -> static class CourseManager -> class MyDay -> class Course -> class Evaluation -> class Assignment and class Quiz.
+
+II. Challenges
+
+Biggest challenge is to understand the purpose of the project and how all the classes interact with one another. Especially the Course class and the Evaluation class that refer each other.
+Secondly, underastanding the concept of inheritance from the 2 derived classes: Quiz and Assignment that have their own constructors and pass their own arguments back to the superclass Evaluation.
+Some keywords that I did not have a chance to practice in this assignment: virtual, abstract, protected, sealed.
+III. Lesson Learned
+
+* byte * byte = int.
+* Better understanding the concept of encapsulation, accessors get and set, access modifier private and public, keyword this, new and static, how to use a private constructor, implementation of class members.
+* Data persistence with System.Text.Json
+* Inheritance and Polymorphism
+* Time management.
+However, it is still challenging to actually understand this whole System thoroughly.
