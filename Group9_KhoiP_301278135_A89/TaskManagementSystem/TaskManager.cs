@@ -13,7 +13,7 @@ namespace TaskManagementSystem
         // Fields
         private static List<Task> tasks;
         // Constructor
-        public TaskManager()
+        static TaskManager()
         {
             tasks = new List<Task>();
         }
