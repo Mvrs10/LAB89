@@ -99,6 +99,7 @@
             this.btn_DeleteCourse.TabIndex = 22;
             this.btn_DeleteCourse.Text = "Delete";
             this.btn_DeleteCourse.UseVisualStyleBackColor = false;
+            this.btn_DeleteCourse.Click += new System.EventHandler(this.Btn_DeleteCourse_Click);
             // 
             // btn_EditCourse
             // 
@@ -110,6 +111,7 @@
             this.btn_EditCourse.TabIndex = 21;
             this.btn_EditCourse.Text = "Edit";
             this.btn_EditCourse.UseVisualStyleBackColor = false;
+            this.btn_EditCourse.Click += new System.EventHandler(this.Btn_EditCourse_Click);
             // 
             // btn_AddCourse
             // 

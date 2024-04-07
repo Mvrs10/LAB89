@@ -106,6 +106,7 @@
             this.btn_CancelCourse.TabIndex = 24;
             this.btn_CancelCourse.Text = "Cancel";
             this.btn_CancelCourse.UseVisualStyleBackColor = false;
+            this.btn_CancelCourse.Click += new System.EventHandler(this.Btn_CancelCourse_Click);
             // 
             // btn_OkCourse
             // 
@@ -118,6 +119,7 @@
             this.btn_OkCourse.TabIndex = 23;
             this.btn_OkCourse.Text = "Ok";
             this.btn_OkCourse.UseVisualStyleBackColor = false;
+            this.btn_OkCourse.Click += new System.EventHandler(this.btn_OkCourse_Click);
             // 
             // txb_IdCourse
             // 

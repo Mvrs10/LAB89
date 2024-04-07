@@ -21,3 +21,5 @@ C:\Users\angel\OneDrive\Documentos\Centennial\Programming II\LAB89\Group9_KhoiP_
 C:\Users\angel\OneDrive\Documentos\Centennial\Programming II\LAB89\Group9_KhoiP_301278135_A89\GUI_ManagementSystem\obj\Debug\GUI_ManagementSystem.csproj.CoreCompileInputs.cache
 C:\Users\angel\OneDrive\Documentos\Centennial\Programming II\LAB89\Group9_KhoiP_301278135_A89\GUI_ManagementSystem\obj\Debug\GUI_ManagementSystem.exe
 C:\Users\angel\OneDrive\Documentos\Centennial\Programming II\LAB89\Group9_KhoiP_301278135_A89\GUI_ManagementSystem\obj\Debug\GUI_ManagementSystem.pdb
+C:\Users\angel\OneDrive\Documentos\Centennial\Programming II\LAB89\Group9_KhoiP_301278135_A89\GUI_ManagementSystem\obj\Debug\GUI_ManagementSystem.MyDay_Form.resources
+C:\Users\angel\OneDrive\Documentos\Centennial\Programming II\LAB89\Group9_KhoiP_301278135_A89\GUI_ManagementSystem\obj\Debug\GUI_ManagementSystem.ItemDeleted_Form.resources

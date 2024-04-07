@@ -44,6 +44,7 @@
             this.btn_CancelDeleteItem.TabIndex = 14;
             this.btn_CancelDeleteItem.Text = "Cancel";
             this.btn_CancelDeleteItem.UseVisualStyleBackColor = false;
+            this.btn_CancelDeleteItem.Click += new System.EventHandler(this.btn_CancelDeleteItem_Click);
             // 
             // btn_OkDeleteItem
             // 
@@ -56,6 +57,7 @@
             this.btn_OkDeleteItem.TabIndex = 13;
             this.btn_OkDeleteItem.Text = "Ok";
             this.btn_OkDeleteItem.UseVisualStyleBackColor = false;
+            this.btn_OkDeleteItem.Click += new System.EventHandler(this.Btn_OkDeleteItem_Click);
             // 
             // label3
             // 

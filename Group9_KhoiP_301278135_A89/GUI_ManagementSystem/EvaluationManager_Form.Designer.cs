@@ -109,6 +109,7 @@
             this.btn_EditEval.TabIndex = 21;
             this.btn_EditEval.Text = "Edit";
             this.btn_EditEval.UseVisualStyleBackColor = false;
+            this.btn_EditEval.Click += new System.EventHandler(this.btn_EditEval_Click);
             // 
             // btn_AddEval
             // 

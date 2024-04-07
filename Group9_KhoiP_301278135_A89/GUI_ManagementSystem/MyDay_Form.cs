@@ -10,20 +10,16 @@ using System.Windows.Forms;
 
 namespace GUI_ManagementSystem
 {
-    public partial class AddEditCourse_Form : Form
+    public partial class MyDay_Form : Form
     {
-        public AddEditCourse_Form()
+        public MyDay_Form()
         {
             InitializeComponent();
+            btn_GoMain.Click += Btn_GoMain_Click;
         }
-        private void Btn_CancelCourse_Click(object sender, EventArgs e)
+        private void Btn_GoMain_Click(object sender, EventArgs e)
         {
             this.Close();
-        }
-
-        private void btn_OkCourse_Click(object sender, EventArgs e)
-        {
-            // Okay button for the AddEddit muts add or edit the items in the list for course, evaluation and task
         }
     }
 }

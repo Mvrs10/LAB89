@@ -3,39 +3,27 @@
   "WorkspaceRootPath": "C:\\Users\\angel\\OneDrive\\Documentos\\Centennial\\Programming II\\LAB89\\Group9_KhoiP_301278135_A89\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|c:\\users\\angel\\onedrive\\documentos\\centennial\\programming ii\\lab89\\group9_khoip_301278135_a89\\gui_managementsystem\\main_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|solutionrelative:gui_managementsystem\\main_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|c:\\users\\angel\\onedrive\\documentos\\centennial\\programming ii\\lab89\\group9_khoip_301278135_a89\\gui_managementsystem\\evaluationtype_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|solutionrelative:gui_managementsystem\\evaluationtype_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|C:\\Users\\angel\\OneDrive\\Documentos\\Centennial\\Programming II\\LAB89\\Group9_KhoiP_301278135_A89\\gui_managementsystem\\evaluationmanager_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|solutionrelative:gui_managementsystem\\evaluationmanager_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|c:\\users\\angel\\onedrive\\documentos\\centennial\\programming ii\\lab89\\group9_khoip_301278135_a89\\gui_managementsystem\\evaluationtype_form.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|solutionrelative:gui_managementsystem\\evaluationtype_form.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|C:\\Users\\angel\\OneDrive\\Documentos\\Centennial\\Programming II\\LAB89\\Group9_KhoiP_301278135_A89\\gui_managementsystem\\main_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|solutionrelative:gui_managementsystem\\main_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|C:\\Users\\angel\\OneDrive\\Documentos\\Centennial\\Programming II\\LAB89\\Group9_KhoiP_301278135_A89\\gui_managementsystem\\main_form.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|solutionrelative:gui_managementsystem\\main_form.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|C:\\Users\\angel\\OneDrive\\Documentos\\Centennial\\Programming II\\LAB89\\Group9_KhoiP_301278135_A89\\gui_managementsystem\\taskmanager_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|c:\\users\\angel\\onedrive\\documentos\\centennial\\programming ii\\lab89\\group9_khoip_301278135_a89\\gui_managementsystem\\taskmanager_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|solutionrelative:gui_managementsystem\\taskmanager_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|C:\\Users\\angel\\OneDrive\\Documentos\\Centennial\\Programming II\\LAB89\\Group9_KhoiP_301278135_A89\\gui_managementsystem\\taskmanager_form.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|c:\\users\\angel\\onedrive\\documentos\\centennial\\programming ii\\lab89\\group9_khoip_301278135_a89\\gui_managementsystem\\taskmanager_form.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|solutionrelative:gui_managementsystem\\taskmanager_form.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|C:\\Users\\angel\\OneDrive\\Documentos\\Centennial\\Programming II\\LAB89\\Group9_KhoiP_301278135_A89\\gui_managementsystem\\evaluationmanager_form.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|solutionrelative:gui_managementsystem\\evaluationmanager_form.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|C:\\Users\\angel\\OneDrive\\Documentos\\Centennial\\Programming II\\LAB89\\Group9_KhoiP_301278135_A89\\gui_managementsystem\\taskmanager_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|solutionrelative:gui_managementsystem\\taskmanager_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|C:\\Users\\angel\\OneDrive\\Documentos\\Centennial\\Programming II\\LAB89\\Group9_KhoiP_301278135_A89\\gui_managementsystem\\coursemanager_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|c:\\users\\angel\\onedrive\\documentos\\centennial\\programming ii\\lab89\\group9_khoip_301278135_a89\\gui_managementsystem\\coursemanager_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|solutionrelative:gui_managementsystem\\coursemanager_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -43,16 +31,52 @@
       "RelativeMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|solutionrelative:gui_managementsystem\\coursemanager_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|C:\\Users\\angel\\OneDrive\\Documentos\\Centennial\\Programming II\\LAB89\\Group9_KhoiP_301278135_A89\\gui_managementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|solutionrelative:gui_managementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|c:\\users\\angel\\onedrive\\documentos\\centennial\\programming ii\\lab89\\group9_khoip_301278135_a89\\gui_managementsystem\\deleteconfirmation_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|solutionrelative:gui_managementsystem\\deleteconfirmation_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|c:\\users\\angel\\onedrive\\documentos\\centennial\\programming ii\\lab89\\group9_khoip_301278135_a89\\gui_managementsystem\\itemdeleted_form.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|solutionrelative:gui_managementsystem\\itemdeleted_form.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|C:\\Users\\angel\\OneDrive\\Documentos\\Centennial\\Programming II\\LAB89\\Group9_KhoiP_301278135_A89\\gui_managementsystem\\evaluationmanager_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|solutionrelative:gui_managementsystem\\evaluationmanager_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|C:\\Users\\angel\\OneDrive\\Documentos\\Centennial\\Programming II\\LAB89\\Group9_KhoiP_301278135_A89\\gui_managementsystem\\coursemanager_form.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|solutionrelative:gui_managementsystem\\coursemanager_form.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|c:\\users\\angel\\onedrive\\documentos\\centennial\\programming ii\\lab89\\group9_khoip_301278135_a89\\gui_managementsystem\\evaluationmanager_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|solutionrelative:gui_managementsystem\\evaluationmanager_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|c:\\users\\angel\\onedrive\\documentos\\centennial\\programming ii\\lab89\\group9_khoip_301278135_a89\\gui_managementsystem\\itemdeleted_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|solutionrelative:gui_managementsystem\\itemdeleted_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|c:\\users\\angel\\onedrive\\documentos\\centennial\\programming ii\\lab89\\group9_khoip_301278135_a89\\gui_managementsystem\\evaluationtype_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|solutionrelative:gui_managementsystem\\evaluationtype_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|c:\\users\\angel\\onedrive\\documentos\\centennial\\programming ii\\lab89\\group9_khoip_301278135_a89\\gui_managementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|solutionrelative:gui_managementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|c:\\users\\angel\\onedrive\\documentos\\centennial\\programming ii\\lab89\\group9_khoip_301278135_a89\\gui_managementsystem\\itemdeleted_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|solutionrelative:gui_managementsystem\\itemdeleted_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|c:\\users\\angel\\onedrive\\documentos\\centennial\\programming ii\\lab89\\group9_khoip_301278135_a89\\gui_managementsystem\\deleteconfirmation_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|solutionrelative:gui_managementsystem\\deleteconfirmation_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|c:\\users\\angel\\onedrive\\documentos\\centennial\\programming ii\\lab89\\group9_khoip_301278135_a89\\gui_managementsystem\\main_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|solutionrelative:gui_managementsystem\\main_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|c:\\users\\angel\\onedrive\\documentos\\centennial\\programming ii\\lab89\\group9_khoip_301278135_a89\\gui_managementsystem\\addeditcourse_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|solutionrelative:gui_managementsystem\\addeditcourse_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|c:\\users\\angel\\onedrive\\documentos\\centennial\\programming ii\\lab89\\group9_khoip_301278135_a89\\gui_managementsystem\\addeditcourse_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|solutionrelative:gui_managementsystem\\addeditcourse_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,106 +86,219 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TaskManager_Form.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\angel\\OneDrive\\Documentos\\Centennial\\Programming II\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\TaskManager_Form.Designer.cs",
+              "RelativeDocumentMoniker": "GUI_ManagementSystem\\TaskManager_Form.Designer.cs",
+              "ToolTip": "C:\\Users\\angel\\OneDrive\\Documentos\\Centennial\\Programming II\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\TaskManager_Form.Designer.cs",
+              "RelativeToolTip": "GUI_ManagementSystem\\TaskManager_Form.Designer.cs",
+              "ViewState": "AQIAAHUAAAAAAAAAAAAawH4AAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-07T18:08:28.336Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TaskManager_Form.cs",
+              "DocumentMoniker": "C:\\Users\\angel\\OneDrive\\Documentos\\Centennial\\Programming II\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\TaskManager_Form.cs",
+              "RelativeDocumentMoniker": "GUI_ManagementSystem\\TaskManager_Form.cs",
+              "ToolTip": "C:\\Users\\angel\\OneDrive\\Documentos\\Centennial\\Programming II\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\TaskManager_Form.cs",
+              "RelativeToolTip": "GUI_ManagementSystem\\TaskManager_Form.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-07T18:06:24.186Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EvaluationType_Form.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\angel\\OneDrive\\Documentos\\Centennial\\Programming II\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\EvaluationType_Form.Designer.cs",
+              "RelativeDocumentMoniker": "GUI_ManagementSystem\\EvaluationType_Form.Designer.cs",
+              "ToolTip": "C:\\Users\\angel\\OneDrive\\Documentos\\Centennial\\Programming II\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\EvaluationType_Form.Designer.cs",
+              "RelativeToolTip": "GUI_ManagementSystem\\EvaluationType_Form.Designer.cs",
+              "ViewState": "AQIAAIEAAAAAAAAAAAASwGsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-07T18:05:25.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EvaluationType_Form.cs",
+              "DocumentMoniker": "C:\\Users\\angel\\OneDrive\\Documentos\\Centennial\\Programming II\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\EvaluationType_Form.cs",
+              "RelativeDocumentMoniker": "GUI_ManagementSystem\\EvaluationType_Form.cs",
+              "ToolTip": "C:\\Users\\angel\\OneDrive\\Documentos\\Centennial\\Programming II\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\EvaluationType_Form.cs",
+              "RelativeToolTip": "GUI_ManagementSystem\\EvaluationType_Form.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-07T17:51:25.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "EvaluationType_Form.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\angel\\OneDrive\\Documentos\\Centennial\\Programming II\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\EvaluationType_Form.cs",
+              "RelativeDocumentMoniker": "GUI_ManagementSystem\\EvaluationType_Form.cs",
+              "ToolTip": "C:\\Users\\angel\\OneDrive\\Documentos\\Centennial\\Programming II\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\EvaluationType_Form.cs [Design]",
+              "RelativeToolTip": "GUI_ManagementSystem\\EvaluationType_Form.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-07T17:51:23.583Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ItemDeleted_Form.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\angel\\OneDrive\\Documentos\\Centennial\\Programming II\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\ItemDeleted_Form.Designer.cs",
+              "RelativeDocumentMoniker": "GUI_ManagementSystem\\ItemDeleted_Form.Designer.cs",
+              "ToolTip": "C:\\Users\\angel\\OneDrive\\Documentos\\Centennial\\Programming II\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\ItemDeleted_Form.Designer.cs",
+              "RelativeToolTip": "GUI_ManagementSystem\\ItemDeleted_Form.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-07T17:41:24.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AddEditCourse_Form.cs",
+              "DocumentMoniker": "C:\\Users\\angel\\OneDrive\\Documentos\\Centennial\\Programming II\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\AddEditCourse_Form.cs",
+              "RelativeDocumentMoniker": "GUI_ManagementSystem\\AddEditCourse_Form.cs",
+              "ToolTip": "C:\\Users\\angel\\OneDrive\\Documentos\\Centennial\\Programming II\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\AddEditCourse_Form.cs",
+              "RelativeToolTip": "GUI_ManagementSystem\\AddEditCourse_Form.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAIwBUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-07T17:31:09.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AddEditCourse_Form.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\angel\\OneDrive\\Documentos\\Centennial\\Programming II\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\AddEditCourse_Form.cs",
+              "RelativeDocumentMoniker": "GUI_ManagementSystem\\AddEditCourse_Form.cs",
+              "ToolTip": "C:\\Users\\angel\\OneDrive\\Documentos\\Centennial\\Programming II\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\AddEditCourse_Form.cs [Design]",
+              "RelativeToolTip": "GUI_ManagementSystem\\AddEditCourse_Form.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-07T17:31:06.589Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ItemDeleted_Form.cs",
+              "DocumentMoniker": "C:\\Users\\angel\\OneDrive\\Documentos\\Centennial\\Programming II\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\ItemDeleted_Form.cs",
+              "RelativeDocumentMoniker": "GUI_ManagementSystem\\ItemDeleted_Form.cs",
+              "ToolTip": "C:\\Users\\angel\\OneDrive\\Documentos\\Centennial\\Programming II\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\ItemDeleted_Form.cs",
+              "RelativeToolTip": "GUI_ManagementSystem\\ItemDeleted_Form.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAcwBoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-07T17:25:58.665Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DeleteConfirmation_Form.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\angel\\OneDrive\\Documentos\\Centennial\\Programming II\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\DeleteConfirmation_Form.cs",
+              "RelativeDocumentMoniker": "GUI_ManagementSystem\\DeleteConfirmation_Form.cs",
+              "ToolTip": "C:\\Users\\angel\\OneDrive\\Documentos\\Centennial\\Programming II\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\DeleteConfirmation_Form.cs [Design]",
+              "RelativeToolTip": "GUI_ManagementSystem\\DeleteConfirmation_Form.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-07T17:25:43.903Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "DeleteConfirmation_Form.cs",
+              "DocumentMoniker": "C:\\Users\\angel\\OneDrive\\Documentos\\Centennial\\Programming II\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\DeleteConfirmation_Form.cs",
+              "RelativeDocumentMoniker": "GUI_ManagementSystem\\DeleteConfirmation_Form.cs",
+              "ToolTip": "C:\\Users\\angel\\OneDrive\\Documentos\\Centennial\\Programming II\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\DeleteConfirmation_Form.cs",
+              "RelativeToolTip": "GUI_ManagementSystem\\DeleteConfirmation_Form.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAiwCEAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-07T17:04:12.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ItemDeleted_Form.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\angel\\OneDrive\\Documentos\\Centennial\\Programming II\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\ItemDeleted_Form.cs",
+              "RelativeDocumentMoniker": "GUI_ManagementSystem\\ItemDeleted_Form.cs",
+              "ToolTip": "C:\\Users\\angel\\OneDrive\\Documentos\\Centennial\\Programming II\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\ItemDeleted_Form.cs [Design]",
+              "RelativeToolTip": "GUI_ManagementSystem\\ItemDeleted_Form.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-07T16:50:49.349Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EvaluationManager_Form.cs",
+              "DocumentMoniker": "C:\\Users\\angel\\OneDrive\\Documentos\\Centennial\\Programming II\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\EvaluationManager_Form.cs",
+              "RelativeDocumentMoniker": "GUI_ManagementSystem\\EvaluationManager_Form.cs",
+              "ToolTip": "C:\\Users\\angel\\OneDrive\\Documentos\\Centennial\\Programming II\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\EvaluationManager_Form.cs",
+              "RelativeToolTip": "GUI_ManagementSystem\\EvaluationManager_Form.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAEwDAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-07T16:38:23.974Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "EvaluationManager_Form.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\angel\\OneDrive\\Documentos\\Centennial\\Programming II\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\EvaluationManager_Form.Designer.cs",
-              "RelativeDocumentMoniker": "GUI_ManagementSystem\\EvaluationManager_Form.Designer.cs",
-              "ToolTip": "C:\\Users\\angel\\OneDrive\\Documentos\\Centennial\\Programming II\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\EvaluationManager_Form.Designer.cs",
-              "RelativeToolTip": "GUI_ManagementSystem\\EvaluationManager_Form.Designer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAALEAAABDAAAA",
+              "DocumentIndex": 16,
+              "Title": "Main_Form.cs",
+              "DocumentMoniker": "C:\\Users\\angel\\OneDrive\\Documentos\\Centennial\\Programming II\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\Main_Form.cs",
+              "RelativeDocumentMoniker": "GUI_ManagementSystem\\Main_Form.cs",
+              "ToolTip": "C:\\Users\\angel\\OneDrive\\Documentos\\Centennial\\Programming II\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\Main_Form.cs",
+              "RelativeToolTip": "GUI_ManagementSystem\\Main_Form.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACYAAABGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-07T03:14:32.217Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "EvaluationManager_Form.cs",
-              "DocumentMoniker": "C:\\Users\\angel\\OneDrive\\Documentos\\Centennial\\Programming II\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\EvaluationManager_Form.cs",
-              "RelativeDocumentMoniker": "GUI_ManagementSystem\\EvaluationManager_Form.cs",
-              "ToolTip": "C:\\Users\\angel\\OneDrive\\Documentos\\Centennial\\Programming II\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\EvaluationManager_Form.cs",
-              "RelativeToolTip": "GUI_ManagementSystem\\EvaluationManager_Form.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAApwBQAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-07T03:14:02.764Z",
+              "WhenOpened": "2024-04-07T16:24:13.723Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "TaskManager_Form.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\angel\\OneDrive\\Documentos\\Centennial\\Programming II\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\TaskManager_Form.Designer.cs",
-              "RelativeDocumentMoniker": "GUI_ManagementSystem\\TaskManager_Form.Designer.cs",
-              "ToolTip": "C:\\Users\\angel\\OneDrive\\Documentos\\Centennial\\Programming II\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\TaskManager_Form.Designer.cs",
-              "RelativeToolTip": "GUI_ManagementSystem\\TaskManager_Form.Designer.cs",
-              "ViewState": "AQIAALIAAAAAAAAAAAAQwLwAAABDAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-07T03:13:44.332Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "TaskManager_Form.cs",
-              "DocumentMoniker": "C:\\Users\\angel\\OneDrive\\Documentos\\Centennial\\Programming II\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\TaskManager_Form.cs",
-              "RelativeDocumentMoniker": "GUI_ManagementSystem\\TaskManager_Form.cs",
-              "ToolTip": "C:\\Users\\angel\\OneDrive\\Documentos\\Centennial\\Programming II\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\TaskManager_Form.cs",
-              "RelativeToolTip": "GUI_ManagementSystem\\TaskManager_Form.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAQwBYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-07T03:13:15.928Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "CourseManager_Form.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\angel\\OneDrive\\Documentos\\Centennial\\Programming II\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\CourseManager_Form.Designer.cs",
-              "RelativeDocumentMoniker": "GUI_ManagementSystem\\CourseManager_Form.Designer.cs",
-              "ToolTip": "C:\\Users\\angel\\OneDrive\\Documentos\\Centennial\\Programming II\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\CourseManager_Form.Designer.cs",
-              "RelativeToolTip": "GUI_ManagementSystem\\CourseManager_Form.Designer.cs",
-              "ViewState": "AQIAALgAAAAAAAAAAAAQwMgAAABDAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-07T03:03:19.664Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
               "Title": "CourseManager_Form.cs",
               "DocumentMoniker": "C:\\Users\\angel\\OneDrive\\Documentos\\Centennial\\Programming II\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\CourseManager_Form.cs",
               "RelativeDocumentMoniker": "GUI_ManagementSystem\\CourseManager_Form.cs",
               "ToolTip": "C:\\Users\\angel\\OneDrive\\Documentos\\Centennial\\Programming II\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\CourseManager_Form.cs",
               "RelativeToolTip": "GUI_ManagementSystem\\CourseManager_Form.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAQwBcAAAAJAAAA",
+              "ViewState": "AQIAACUAAAAAAAAAAADgvzIAAABGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-07T02:57:13.607Z",
+              "WhenOpened": "2024-04-07T16:23:17.05Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Main_Form.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\angel\\OneDrive\\Documentos\\Centennial\\Programming II\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\Main_Form.Designer.cs",
-              "RelativeDocumentMoniker": "GUI_ManagementSystem\\Main_Form.Designer.cs",
-              "ToolTip": "C:\\Users\\angel\\OneDrive\\Documentos\\Centennial\\Programming II\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\Main_Form.Designer.cs",
-              "RelativeToolTip": "GUI_ManagementSystem\\Main_Form.Designer.cs",
-              "ViewState": "AQIAAEIAAAAAAAAAAAAYwFMAAAAAAAAA",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\angel\\OneDrive\\Documentos\\Centennial\\Programming II\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\Program.cs",
+              "RelativeDocumentMoniker": "GUI_ManagementSystem\\Program.cs",
+              "ToolTip": "C:\\Users\\angel\\OneDrive\\Documentos\\Centennial\\Programming II\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\Program.cs",
+              "RelativeToolTip": "GUI_ManagementSystem\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-07T02:44:33.744Z",
+              "WhenOpened": "2024-04-07T16:15:09.67Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 6,
               "Title": "CourseManager_Form.cs [Design]",
               "DocumentMoniker": "C:\\Users\\angel\\OneDrive\\Documentos\\Centennial\\Programming II\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\CourseManager_Form.cs",
               "RelativeDocumentMoniker": "GUI_ManagementSystem\\CourseManager_Form.cs",
@@ -173,33 +310,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Main_Form.cs",
-              "DocumentMoniker": "C:\\Users\\angel\\OneDrive\\Documentos\\Centennial\\Programming II\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\Main_Form.cs",
-              "RelativeDocumentMoniker": "GUI_ManagementSystem\\Main_Form.cs",
-              "ToolTip": "C:\\Users\\angel\\OneDrive\\Documentos\\Centennial\\Programming II\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\Main_Form.cs",
-              "RelativeToolTip": "GUI_ManagementSystem\\Main_Form.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAjwC8AAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-07T02:18:08.038Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\angel\\OneDrive\\Documentos\\Centennial\\Programming II\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\Program.cs",
-              "RelativeDocumentMoniker": "GUI_ManagementSystem\\Program.cs",
-              "ToolTip": "C:\\Users\\angel\\OneDrive\\Documentos\\Centennial\\Programming II\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\Program.cs",
-              "RelativeToolTip": "GUI_ManagementSystem\\Program.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAlwBIAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-05T19:18:07.932Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 9,
               "Title": "EvaluationManager_Form.cs [Design]",
               "DocumentMoniker": "C:\\Users\\angel\\OneDrive\\Documentos\\Centennial\\Programming II\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\EvaluationManager_Form.cs",
               "RelativeDocumentMoniker": "GUI_ManagementSystem\\EvaluationManager_Form.cs",
@@ -211,7 +322,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
               "Title": "TaskManager_Form.cs [Design]",
               "DocumentMoniker": "C:\\Users\\angel\\OneDrive\\Documentos\\Centennial\\Programming II\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\TaskManager_Form.cs",
               "RelativeDocumentMoniker": "GUI_ManagementSystem\\TaskManager_Form.cs",
@@ -219,18 +330,6 @@
               "RelativeToolTip": "GUI_ManagementSystem\\TaskManager_Form.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-05T16:40:19.314Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Main_Form.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\angel\\OneDrive\\Documentos\\Centennial\\Programming II\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\Main_Form.cs",
-              "RelativeDocumentMoniker": "GUI_ManagementSystem\\Main_Form.cs",
-              "ToolTip": "C:\\Users\\angel\\OneDrive\\Documentos\\Centennial\\Programming II\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\Main_Form.cs [Design]",
-              "RelativeToolTip": "GUI_ManagementSystem\\Main_Form.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-05T16:40:16.136Z",
               "EditorCaption": " [Design]"
             }
           ]

@@ -100,6 +100,7 @@
             this.btn_DeleteTask.TabIndex = 10;
             this.btn_DeleteTask.Text = "Delete";
             this.btn_DeleteTask.UseVisualStyleBackColor = false;
+            this.btn_DeleteTask.Click += new System.EventHandler(this.btn_DeleteTask_Click);
             // 
             // btn_EditTask
             // 
@@ -111,6 +112,7 @@
             this.btn_EditTask.TabIndex = 9;
             this.btn_EditTask.Text = "Edit";
             this.btn_EditTask.UseVisualStyleBackColor = false;
+            this.btn_EditTask.Click += new System.EventHandler(this.btn_EditTask_Click);
             // 
             // btn_AddTask
             // 
@@ -122,6 +124,7 @@
             this.btn_AddTask.TabIndex = 8;
             this.btn_AddTask.Text = "Add";
             this.btn_AddTask.UseVisualStyleBackColor = false;
+            this.btn_AddTask.Click += new System.EventHandler(this.Btn_AddTask_Click);
             // 
             // label4
             // 
