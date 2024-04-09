@@ -13,9 +13,9 @@ namespace GUI_ManagementSystem
 {
     public partial class CourseManager_Form : Form
     {
-        public CourseManager courseManager = new CourseManager();
-        public List<Course> courses=CourseManager.Courses;
-        public List<TaskManagementSystem.Task> tasks=new List<TaskManagementSystem.Task>();
+        CourseManager courseManager = new CourseManager();
+        List<Course> courses=CourseManager.Courses;
+        List<TaskManagementSystem.Task> tasks=new List<TaskManagementSystem.Task>();
 
         public CourseManager_Form() //Maria, Minh
         {
@@ -31,8 +31,7 @@ namespace GUI_ManagementSystem
 
         private void Btn_AddCourse_Click(object sender, EventArgs e) //Maria, Minh
         {
-            Course newCourse = default;
-            AddEditCourse_Form addEditCourse = new AddEditCourse_Form(newCourse);
+            AddEditCourse_Form addEditCourse = new AddEditCourse_Form(default);
             this.Hide();            
             addEditCourse.FormClosed += ShowThis;
             if (addEditCourse.ShowDialog() != DialogResult.OK) return;
@@ -68,8 +67,9 @@ namespace GUI_ManagementSystem
             {
                 courses.RemoveAt(lsbx_Courses.SelectedIndex);
                 lsbx_Courses.Items.Remove(lsbx_Courses.SelectedItem);
+                updateCourseListBox();
             }
-            updateCourseListBox();
+            else return;
         }
         private void ShowThis(object sender, FormClosedEventArgs e) //Maria, Minh
         {

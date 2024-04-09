@@ -15,10 +15,11 @@ namespace GUI_ManagementSystem
     {
         Assignment assignment;
         Course course;
-        public AddEditAssignment_Form(Course course) //Maria, Minh
+        public AddEditAssignment_Form(Course course, Assignment assignment) //Maria, Minh
         {
             InitializeComponent();
             this.course = course;
+            this.assignment = assignment;
         }
         private void btn_OkAssignment_Click(object sender, EventArgs e) //Maria, Minh
         {
@@ -26,16 +27,26 @@ namespace GUI_ManagementSystem
             byte weight = Convert.ToByte(txb_Weight.Text);
             DateTime dueDate = dtp_DueDate.Value;
             bool isGroupAssignment = ckbx_IsGroupAssignment.Checked;
-            try
+            if (assignment == null)
             {
-                course.AddEvaluation(EvaluationType.Assignment, weight, name, dueDate);
+                try
+                {
+                    course.AddEvaluation(EvaluationType.Assignment, weight, name, dueDate);
+                    assignment = course.Evaluations[course.Evaluations.Count - 1] as Assignment;
+                    assignment.IsGroupAssignment = isGroupAssignment;
+                }
+                catch (Exception)
+                {
+                    throw;
+                } 
             }
-            catch (Exception)
+            else
             {
-                throw;
+                assignment.Name = name;
+                assignment.Weight = weight;
+                assignment.DueDate = dueDate;
+                assignment.IsGroupAssignment = isGroupAssignment;
             }
-            assignment = course.Evaluations[course.Evaluations.Count - 1] as Assignment;
-            assignment.IsGroupAssignment = isGroupAssignment;
             //assignment = new Assignment(course, weight, dueDate, isGroupAssignment);
             //assignment.Name = name;
             DialogResult = DialogResult.OK;
@@ -44,6 +55,13 @@ namespace GUI_ManagementSystem
         private void AddEditAssignment_Form_Load(object sender, EventArgs e)//Maria, Minh
         {
             txb_Course.Text = course.ToString();
+            if (assignment != null)
+            {
+                txb_Name.Text = assignment.Name;
+                txb_Weight.Text = Convert.ToString(assignment.Weight);
+                dtp_DueDate.Value = assignment.DueDate;
+                ckbx_IsGroupAssignment.Checked = assignment.IsGroupAssignment;
+            }
         }
 
         private void btn_CancelAssignment_Click(object sender, EventArgs e)//Maria, Minh

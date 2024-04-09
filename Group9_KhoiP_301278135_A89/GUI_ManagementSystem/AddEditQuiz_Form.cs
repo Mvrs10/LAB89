@@ -14,15 +14,24 @@ namespace GUI_ManagementSystem
     public partial class AddEditQuiz_Form : Form
     {
         Course course;
-        public AddEditQuiz_Form(Course course) //Maria, Minh
+        Quiz quiz;
+        public AddEditQuiz_Form(Course course, Quiz quiz) //Maria, Minh
         {
             InitializeComponent();
             this.course = course;
+            this.quiz = quiz;
         }
 
         private void AddEditQuiz_Form_Load(object sender, EventArgs e) //Maria, Minh
         {
             txb_Course.Text = course.ToString();
+            if (quiz != null)
+            {
+                txb_Name.Text = quiz.Name;
+                txb_Weight.Text = Convert.ToString(quiz.Weight);
+                dtp_DueDate.Value = quiz.DueDate;
+                txb_NumberOfQuestions.Text = Convert.ToString(quiz.NumberOfQuestions);
+            }
         }
 
         private void btn_Ok_Click(object sender, EventArgs e)
@@ -31,17 +40,27 @@ namespace GUI_ManagementSystem
             byte weight = Convert.ToByte(txb_Weight.Text);
             DateTime dueDate = dtp_DueDate.Value;
             uint numberOfQuestions = Convert.ToUInt32(txb_NumberOfQuestions.Text);
-            try
+            if (quiz == null)
             {
-                course.AddEvaluation(EvaluationType.Quiz, weight, name);
+                try
+                {
+                    course.AddEvaluation(EvaluationType.Quiz, weight, name);
+                    Quiz quiz = (Quiz)course.Evaluations[course.Evaluations.Count - 1];
+                    quiz.NumberOfQuestions = numberOfQuestions;
+                    quiz.DueDate = dueDate;
+                }
+                catch (Exception)
+                {
+                    throw;
+                } 
             }
-            catch (Exception)
+            else
             {
-                throw;
+                quiz.Name = name;
+                quiz.Weight = weight;
+                quiz.DueDate = dueDate;
+                quiz.NumberOfQuestions = numberOfQuestions;
             }
-            Quiz quiz = (Quiz)course.Evaluations[course.Evaluations.Count - 1];
-            quiz.NumberOfQuestions = numberOfQuestions;
-            quiz.DueDate = dueDate;
             //quiz.NumberOfQuestions = numberOfQuestions;
             //quiz = new Quiz(course, weight, numberOfQuestions)
             //{

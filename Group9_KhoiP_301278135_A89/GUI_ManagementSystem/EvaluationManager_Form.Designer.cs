@@ -42,7 +42,7 @@
             this.label5 = new System.Windows.Forms.Label();
             this.lsbx_Evaluations = new System.Windows.Forms.ListBox();
             this.cbbx_EvaluationType = new System.Windows.Forms.ComboBox();
-            this.lbl_options = new System.Windows.Forms.Label();
+            this.lbl_instruction = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // lbl_EvaluationList
@@ -60,14 +60,14 @@
             // 
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label4.Font = new System.Drawing.Font("PMingLiU-ExtB", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Font = new System.Drawing.Font("PMingLiU-ExtB", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.DarkOliveGreen;
-            this.label4.Location = new System.Drawing.Point(26, 200);
+            this.label4.Location = new System.Drawing.Point(11, 205);
             this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(80, 24);
+            this.label4.Size = new System.Drawing.Size(162, 16);
             this.label4.TabIndex = 23;
-            this.label4.Text = "Details";
+            this.label4.Text = "Evaluations in course";
             // 
             // btn_DeleteEvaluation
             // 
@@ -81,6 +81,7 @@
             this.btn_DeleteEvaluation.Text = "Delete";
             this.btn_DeleteEvaluation.UseVisualStyleBackColor = false;
             this.btn_DeleteEvaluation.Visible = false;
+            this.btn_DeleteEvaluation.Click += new System.EventHandler(this.btn_DeleteEvaluation_Click);
             // 
             // btn_EditEvaluation
             // 
@@ -107,7 +108,6 @@
             this.btn_AddEvaluation.TabIndex = 20;
             this.btn_AddEvaluation.Text = "Add an evaluation";
             this.btn_AddEvaluation.UseVisualStyleBackColor = false;
-            this.btn_AddEvaluation.Visible = false;
             this.btn_AddEvaluation.Click += new System.EventHandler(this.btn_AddEvaluation_Click);
             // 
             // lsbx_Courses
@@ -202,6 +202,7 @@
             this.cbbx_EvaluationType.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbbx_EvaluationType.FormattingEnabled = true;
             this.cbbx_EvaluationType.Items.AddRange(new object[] {
+            "Choose an evaluation type",
             "Assignment",
             "Discussion",
             "Project",
@@ -211,19 +212,18 @@
             this.cbbx_EvaluationType.Name = "cbbx_EvaluationType";
             this.cbbx_EvaluationType.Size = new System.Drawing.Size(164, 21);
             this.cbbx_EvaluationType.TabIndex = 33;
-            this.cbbx_EvaluationType.DropDown += new System.EventHandler(this.cbbx_EvaluationType_DropDown);
             // 
-            // lbl_options
+            // lbl_instruction
             // 
-            this.lbl_options.AutoSize = true;
-            this.lbl_options.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.lbl_options.Font = new System.Drawing.Font("PMingLiU-ExtB", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_options.Location = new System.Drawing.Point(412, 240);
-            this.lbl_options.Name = "lbl_options";
-            this.lbl_options.Size = new System.Drawing.Size(142, 11);
-            this.lbl_options.TabIndex = 34;
-            this.lbl_options.Text = "Choose an evaluation type";
-            this.lbl_options.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lbl_instruction.AutoSize = true;
+            this.lbl_instruction.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lbl_instruction.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_instruction.ForeColor = System.Drawing.Color.Red;
+            this.lbl_instruction.Location = new System.Drawing.Point(185, 335);
+            this.lbl_instruction.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lbl_instruction.Name = "lbl_instruction";
+            this.lbl_instruction.Size = new System.Drawing.Size(0, 15);
+            this.lbl_instruction.TabIndex = 34;
             // 
             // EvaluationManager_Form
             // 
@@ -231,7 +231,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(670, 592);
-            this.Controls.Add(this.lbl_options);
+            this.Controls.Add(this.lbl_instruction);
             this.Controls.Add(this.cbbx_EvaluationType);
             this.Controls.Add(this.lsbx_Evaluations);
             this.Controls.Add(this.label5);
@@ -270,6 +270,6 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.ListBox lsbx_Evaluations;
         private System.Windows.Forms.ComboBox cbbx_EvaluationType;
-        private System.Windows.Forms.Label lbl_options;
+        private System.Windows.Forms.Label lbl_instruction;
     }
 }

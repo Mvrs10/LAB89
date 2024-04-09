@@ -14,7 +14,7 @@ namespace GUI_ManagementSystem
     public partial class EvaluationManager_Form : Form
     {
         CourseManager courseManager = new CourseManager();
-        List<Course> courses = CourseManager.Courses;
+        List<Course> courses = CourseManager.Courses;        
         public EvaluationManager_Form() //Maria, Minh
         {
             InitializeComponent();
@@ -26,82 +26,106 @@ namespace GUI_ManagementSystem
         }
         private void btn_AddEvaluation_Click(object sender, EventArgs e) //Maria, Minh
         {
-            //EvaluationType evaluationType = (EvaluationType)cbbx_EvaluationType.SelectedItem;
-            Course course = lsbx_Courses.SelectedItem as Course;
+            Course course = courses[lsbx_Courses.SelectedIndex];
+            course = lsbx_Courses.SelectedItem as Course;
+            if (lsbx_Courses.SelectedIndex == -1 || cbbx_EvaluationType.SelectedIndex == 0 || course == null)
+            {
+                lbl_instruction.Text = "Please select a course and an evaluation type";
+                return;
+            }
             //Evaluation evaluation = lsbx_Evaluations.SelectedItem as Evaluation;
             switch (cbbx_EvaluationType.SelectedItem)
             {
                 case "Assignment":
-                    AddEditAssignment_Form addEditAssignment_Form = new AddEditAssignment_Form(course);                    
+                    AddEditAssignment_Form addEditAssignment_Form = new AddEditAssignment_Form(course, default);                    
                     this.Hide();
                     addEditAssignment_Form.FormClosed += ShowThis;
                     if(addEditAssignment_Form.ShowDialog() != DialogResult.OK) return;
-                    updateEvaluationListBox();
-                    lsbx_Courses.SelectedIndex = -1;
                     break;
                 case "Quiz":
-                    AddEditQuiz_Form addEditQuiz_Form = new AddEditQuiz_Form(course);
+                    AddEditQuiz_Form addEditQuiz_Form = new AddEditQuiz_Form(course, default);
                     this.Hide();
                     addEditQuiz_Form.FormClosed += ShowThis;
-                    if (addEditQuiz_Form.ShowDialog() != DialogResult.OK) return;
-                    updateEvaluationListBox();
-                    lsbx_Courses.SelectedIndex = -1;
+                    if (addEditQuiz_Form.ShowDialog() != DialogResult.OK) return;;
                     break;
                 case "Test":
-                    AddEditTest_Form addEditTest_Form = new AddEditTest_Form(course);
+                    AddEditTest_Form addEditTest_Form = new AddEditTest_Form(course, default);
                     this.Hide();
                     addEditTest_Form.FormClosed += ShowThis;
                     if (addEditTest_Form.ShowDialog() != DialogResult.OK) return;
-                    updateEvaluationListBox();
-                    lsbx_Courses.SelectedIndex = -1;
                     break;
                 case "Discussion":
-                    AddEditDiscussion_Form addDiscussionTest_Form = new AddEditDiscussion_Form(course);
+                    AddEditDiscussion_Form addDiscussionTest_Form = new AddEditDiscussion_Form(course, default);
                     this.Hide();
                     addDiscussionTest_Form.FormClosed += ShowThis;
                     if (addDiscussionTest_Form.ShowDialog() != DialogResult.OK) return;
-                    updateEvaluationListBox();
-                    lsbx_Courses.SelectedIndex = -1;
                     break;
                 case "Project":
-                    AddEditProject_Form addEditProject_Form = new AddEditProject_Form(course);
+                    AddEditProject_Form addEditProject_Form = new AddEditProject_Form(course, default);
                     this.Hide();
                     addEditProject_Form.FormClosed += ShowThis;
                     if (addEditProject_Form.ShowDialog() != DialogResult.OK) return;
-                    updateEvaluationListBox();
-                    lsbx_Courses.SelectedIndex = -1;
                     break;
             }
+            updateCourseListBox();
         }
         private void btn_EditEval_Click(object sender, EventArgs e) //Maria, Minh
         {
-            Course course = lsbx_Courses.SelectedItem as Course;
+            Course course = courses[lsbx_Courses.SelectedIndex];
+            course = lsbx_Courses.SelectedItem as Course;
             Evaluation evaluation = lsbx_Evaluations.SelectedItem as Evaluation;
+            if (course == null || evaluation == null) return;
             switch (evaluation.Type)
             {
                 case EvaluationType.Assignment:
-                    AddEditAssignment_Form addEditAssignment_Form = new AddEditAssignment_Form(course);
+                    Assignment assignment = evaluation as Assignment;
+                    AddEditAssignment_Form addEditAssignment_Form = new AddEditAssignment_Form(course, assignment);
                     this.Hide();
                     addEditAssignment_Form.FormClosed += ShowThis;
                     if (addEditAssignment_Form.ShowDialog() != DialogResult.OK) return;
-                    lsbx_Courses.SelectedIndex = -1;
-                    updateEvaluationListBox();
+                    break;
+                case EvaluationType.Quiz:
+                    Quiz quiz = evaluation as Quiz;
+                    AddEditQuiz_Form addEditQuiz_Form = new AddEditQuiz_Form(course, quiz);
+                    this.Hide();
+                    addEditQuiz_Form.FormClosed += ShowThis;
+                    if (addEditQuiz_Form.ShowDialog() != DialogResult.OK) return;
+                    break;
+                case EvaluationType.Discussion:
+                    AddEditDiscussion_Form addEditDiscussion_Form = new AddEditDiscussion_Form(course, evaluation);
+                    this.Hide();
+                    addEditDiscussion_Form.FormClosed += ShowThis;
+                    if (addEditDiscussion_Form.ShowDialog() != DialogResult.OK) return;
+                    break;
+                case EvaluationType.Project:
+                    AddEditProject_Form addEditProject_Form = new AddEditProject_Form(course, evaluation);
+                    this.Hide();
+                    addEditProject_Form.FormClosed += ShowThis;
+                    if (addEditProject_Form.ShowDialog() != DialogResult.OK) return;
+                    break;
+                case EvaluationType.Test:
+                    AddEditTest_Form addEditTest_Form = new AddEditTest_Form(course, evaluation);
+                    this.Hide();
+                    addEditTest_Form.FormClosed += ShowThis;
+                    if (addEditTest_Form.ShowDialog() != DialogResult.OK) return;
                     break;
             }
 
         }
         private void ShowThis(object sender, FormClosedEventArgs e) //Maria, Minh
         {
-            lbl_options.Visible = true;
-            cbbx_EvaluationType.SelectedIndex = -1;
+            cbbx_EvaluationType.SelectedIndex = 0;
             lbl_EvaluationList.Text = string.Empty;
-            updateEvaluationListBox();
+            lbl_instruction.Text = string.Empty;
+            btn_EditEvaluation.Visible = lsbx_Evaluations.SelectedIndex != -1 && lsbx_Courses.SelectedIndex != -1;
+            btn_DeleteEvaluation.Visible = lsbx_Evaluations.SelectedIndex != -1 && lsbx_Courses.SelectedIndex != -1;            
             this.Show();
         }
 
         private void EvaluationManager_Form_Load(object sender, EventArgs e) //Maria, Minh
         {
             updateCourseListBox();
+            cbbx_EvaluationType.SelectedIndex = 0;
         }
 
         private void updateCourseListBox() //Maria, Minh
@@ -111,13 +135,15 @@ namespace GUI_ManagementSystem
             {
                 lsbx_Courses.Items.Add(course);
             }
-            btn_AddEvaluation.Visible = lsbx_Courses.SelectedIndex != -1;
+            updateEvaluationListBox();
         }
 
         private void lsbx_Courses_SelectedIndexChanged(object sender, EventArgs e) //aria, Minh
         {
             if (lsbx_Courses.SelectedIndex == -1) return;
-            Course course = (Course)lsbx_Courses.SelectedItem;
+            Course course = courses[lsbx_Courses.SelectedIndex];
+            course = (Course)lsbx_Courses.SelectedItem;
+            updateEvaluationListBox();
             lbl_EvaluationList.Text = string.Empty;
             int i = 1;
             foreach (Evaluation evaluation in course.Evaluations)
@@ -125,30 +151,40 @@ namespace GUI_ManagementSystem
                 lbl_EvaluationList.Text += $"{i}/ "+evaluation.FormatedString()+"\n\n";
                 i++;
             }
-            updateEvaluationListBox();
-            btn_AddEvaluation.Visible = lsbx_Courses.SelectedIndex != -1;
+            btn_EditEvaluation.Visible = lsbx_Evaluations.SelectedIndex != -1 && lsbx_Courses.SelectedIndex != -1;
+            btn_DeleteEvaluation.Visible = lsbx_Evaluations.SelectedIndex != -1 && lsbx_Courses.SelectedIndex != -1;
         }
 
         private void updateEvaluationListBox()
         {
             lsbx_Evaluations.Items.Clear();
-            Course course = (Course)lsbx_Courses.SelectedItem;
+            if (lsbx_Courses.SelectedIndex == -1) return;
+            Course course = courses[lsbx_Courses.SelectedIndex];
+            course = lsbx_Courses.SelectedItem as Course;
             foreach (Evaluation evaluation in course.Evaluations)
             {
                 lsbx_Evaluations.Items.Add(evaluation);
             }
         }
-
-        private void cbbx_EvaluationType_DropDown(object sender, EventArgs e)
-        {
-            lbl_options.Visible = false;
-        }
-
         private void lsbx_Evaluations_SelectedIndexChanged(object sender, EventArgs e)
         {
             if (lsbx_Evaluations.SelectedIndex == -1) return;
-            btn_EditEvaluation.Visible = lsbx_Evaluations.SelectedIndex != -1;
-            btn_DeleteEvaluation.Visible = lsbx_Evaluations.SelectedIndex != -1;
+            btn_EditEvaluation.Visible = lsbx_Evaluations.SelectedIndex != -1 && lsbx_Courses.SelectedIndex != -1;
+            btn_DeleteEvaluation.Visible = lsbx_Evaluations.SelectedIndex != -1 && lsbx_Courses.SelectedIndex != -1;
+        }
+
+        private void btn_DeleteEvaluation_Click(object sender, EventArgs e)
+        {
+            DeleteConfirmation_Form deleteConfirmation = new DeleteConfirmation_Form();
+            this.Hide();
+            deleteConfirmation.FormClosed += ShowThis;
+            if (deleteConfirmation.ShowDialog() == DialogResult.OK)
+            {
+                courses[lsbx_Courses.SelectedIndex].Evaluations.RemoveAt(lsbx_Evaluations.SelectedIndex);
+                lsbx_Evaluations.Items.Remove(lsbx_Evaluations.SelectedItem);
+                updateCourseListBox();
+            }
+            else return;
         }
     }
 }
