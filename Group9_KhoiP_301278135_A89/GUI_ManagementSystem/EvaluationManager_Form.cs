@@ -32,8 +32,7 @@ namespace GUI_ManagementSystem
             switch (cbbx_EvaluationType.SelectedItem)
             {
                 case "Assignment":
-                    AddEditAssignment_Form addEditAssignment_Form = new AddEditAssignment_Form();                    
-                    addEditAssignment_Form.course = course;
+                    AddEditAssignment_Form addEditAssignment_Form = new AddEditAssignment_Form(course);                    
                     this.Hide();
                     addEditAssignment_Form.FormClosed += ShowThis;
                     if(addEditAssignment_Form.ShowDialog() != DialogResult.OK) return;
@@ -42,7 +41,6 @@ namespace GUI_ManagementSystem
                     break;
                 case "Quiz":
                     AddEditQuiz_Form addEditQuiz_Form = new AddEditQuiz_Form(course);
-                    //addEditQuiz_Form.course = course;
                     this.Hide();
                     addEditQuiz_Form.FormClosed += ShowThis;
                     if (addEditQuiz_Form.ShowDialog() != DialogResult.OK) return;
@@ -50,32 +48,26 @@ namespace GUI_ManagementSystem
                     lsbx_Courses.SelectedIndex = -1;
                     break;
                 case "Test":
-                    AddEditTest_Form addEditTest_Form = new AddEditTest_Form();
-                    addEditTest_Form.course = course;
+                    AddEditTest_Form addEditTest_Form = new AddEditTest_Form(course);
                     this.Hide();
                     addEditTest_Form.FormClosed += ShowThis;
                     if (addEditTest_Form.ShowDialog() != DialogResult.OK) return;
-                    courses[lsbx_Courses.SelectedIndex].Evaluations.Add(addEditTest_Form.evaluation);
                     updateEvaluationListBox();
                     lsbx_Courses.SelectedIndex = -1;
                     break;
                 case "Discussion":
-                    AddEditDiscussion_Form addEditDiscussion_Form = new AddEditDiscussion_Form();
-                    addEditDiscussion_Form.course = course;
+                    AddEditDiscussion_Form addDiscussionTest_Form = new AddEditDiscussion_Form(course);
                     this.Hide();
-                    addEditDiscussion_Form.FormClosed += ShowThis;
-                    if (addEditDiscussion_Form.ShowDialog() != DialogResult.OK) return;
-                    courses[lsbx_Courses.SelectedIndex].Evaluations.Add(addEditDiscussion_Form.evaluation);
+                    addDiscussionTest_Form.FormClosed += ShowThis;
+                    if (addDiscussionTest_Form.ShowDialog() != DialogResult.OK) return;
                     updateEvaluationListBox();
                     lsbx_Courses.SelectedIndex = -1;
                     break;
                 case "Project":
-                    AddEditProject_Form addEditProject_Form = new AddEditProject_Form();
-                    addEditProject_Form.course = course;
+                    AddEditProject_Form addEditProject_Form = new AddEditProject_Form(course);
                     this.Hide();
                     addEditProject_Form.FormClosed += ShowThis;
                     if (addEditProject_Form.ShowDialog() != DialogResult.OK) return;
-                    courses[lsbx_Courses.SelectedIndex].Evaluations.Add(addEditProject_Form.evaluation);
                     updateEvaluationListBox();
                     lsbx_Courses.SelectedIndex = -1;
                     break;
@@ -88,8 +80,7 @@ namespace GUI_ManagementSystem
             switch (evaluation.Type)
             {
                 case EvaluationType.Assignment:
-                    AddEditAssignment_Form addEditAssignment_Form = new AddEditAssignment_Form();
-                    addEditAssignment_Form.course = course;
+                    AddEditAssignment_Form addEditAssignment_Form = new AddEditAssignment_Form(course);
                     this.Hide();
                     addEditAssignment_Form.FormClosed += ShowThis;
                     if (addEditAssignment_Form.ShowDialog() != DialogResult.OK) return;

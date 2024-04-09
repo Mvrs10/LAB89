@@ -44,22 +44,22 @@
             // 
             // txt_CourseCode
             // 
-            this.txt_CourseCode.Font = new System.Drawing.Font("PMingLiU-ExtB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_CourseCode.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_CourseCode.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.txt_CourseCode.Location = new System.Drawing.Point(82, 160);
             this.txt_CourseCode.Margin = new System.Windows.Forms.Padding(2);
             this.txt_CourseCode.Name = "txt_CourseCode";
-            this.txt_CourseCode.Size = new System.Drawing.Size(115, 27);
+            this.txt_CourseCode.Size = new System.Drawing.Size(115, 26);
             this.txt_CourseCode.TabIndex = 30;
             // 
             // txt_CourseName
             // 
-            this.txt_CourseName.Font = new System.Drawing.Font("PMingLiU-ExtB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_CourseName.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_CourseName.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.txt_CourseName.Location = new System.Drawing.Point(82, 127);
             this.txt_CourseName.Margin = new System.Windows.Forms.Padding(2);
             this.txt_CourseName.Name = "txt_CourseName";
-            this.txt_CourseName.Size = new System.Drawing.Size(115, 27);
+            this.txt_CourseName.Size = new System.Drawing.Size(115, 26);
             this.txt_CourseName.TabIndex = 29;
             // 
             // label3
@@ -130,12 +130,12 @@
             // 
             // txt_CourseId
             // 
-            this.txt_CourseId.Font = new System.Drawing.Font("PMingLiU-ExtB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_CourseId.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_CourseId.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.txt_CourseId.Location = new System.Drawing.Point(351, 127);
             this.txt_CourseId.Margin = new System.Windows.Forms.Padding(2);
             this.txt_CourseId.Name = "txt_CourseId";
-            this.txt_CourseId.Size = new System.Drawing.Size(98, 27);
+            this.txt_CourseId.Size = new System.Drawing.Size(98, 26);
             this.txt_CourseId.TabIndex = 35;
             // 
             // label5
@@ -166,7 +166,7 @@
             // 
             // comboBox_CourseSemester
             // 
-            this.comboBox_CourseSemester.Font = new System.Drawing.Font("PMingLiU-ExtB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox_CourseSemester.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox_CourseSemester.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.comboBox_CourseSemester.FormattingEnabled = true;
             this.comboBox_CourseSemester.Items.AddRange(new object[] {
@@ -179,7 +179,7 @@
             this.comboBox_CourseSemester.Location = new System.Drawing.Point(351, 158);
             this.comboBox_CourseSemester.Margin = new System.Windows.Forms.Padding(2);
             this.comboBox_CourseSemester.Name = "comboBox_CourseSemester";
-            this.comboBox_CourseSemester.Size = new System.Drawing.Size(98, 24);
+            this.comboBox_CourseSemester.Size = new System.Drawing.Size(98, 27);
             this.comboBox_CourseSemester.TabIndex = 36;
             // 
             // AddEditCourse_Form

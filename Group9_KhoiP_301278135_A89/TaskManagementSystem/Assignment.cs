@@ -28,7 +28,7 @@ namespace TaskManagementSystem
         // Action member #2
         public override string ToString()
         {
-            return $"{base.ToString()}\nGroup Assignment status: {IsGroupAssignment}";
+            return $"{base.ToString()} - Group: {IsGroupAssignment}";
         }
     }
 }

@@ -176,7 +176,7 @@
             // txb_Course
             // 
             this.txb_Course.Enabled = false;
-            this.txb_Course.Font = new System.Drawing.Font("PMingLiU-ExtB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txb_Course.Font = new System.Drawing.Font("PMingLiU-ExtB", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txb_Course.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.txb_Course.Location = new System.Drawing.Point(97, 111);
             this.txb_Course.Margin = new System.Windows.Forms.Padding(2);

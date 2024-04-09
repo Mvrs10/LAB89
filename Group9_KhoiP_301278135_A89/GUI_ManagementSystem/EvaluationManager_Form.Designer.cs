@@ -112,13 +112,13 @@
             // 
             // lsbx_Courses
             // 
-            this.lsbx_Courses.Font = new System.Drawing.Font("PMingLiU-ExtB", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lsbx_Courses.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lsbx_Courses.FormattingEnabled = true;
-            this.lsbx_Courses.ItemHeight = 14;
+            this.lsbx_Courses.ItemHeight = 17;
             this.lsbx_Courses.Location = new System.Drawing.Point(212, 235);
             this.lsbx_Courses.Margin = new System.Windows.Forms.Padding(2);
             this.lsbx_Courses.Name = "lsbx_Courses";
-            this.lsbx_Courses.Size = new System.Drawing.Size(165, 102);
+            this.lsbx_Courses.Size = new System.Drawing.Size(165, 89);
             this.lsbx_Courses.TabIndex = 19;
             this.lsbx_Courses.SelectedIndexChanged += new System.EventHandler(this.lsbx_Courses_SelectedIndexChanged);
             // 
@@ -187,13 +187,13 @@
             // 
             // lsbx_Evaluations
             // 
-            this.lsbx_Evaluations.Font = new System.Drawing.Font("PMingLiU-ExtB", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lsbx_Evaluations.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lsbx_Evaluations.FormattingEnabled = true;
-            this.lsbx_Evaluations.ItemHeight = 14;
+            this.lsbx_Evaluations.ItemHeight = 15;
             this.lsbx_Evaluations.Location = new System.Drawing.Point(198, 416);
             this.lsbx_Evaluations.Margin = new System.Windows.Forms.Padding(2);
             this.lsbx_Evaluations.Name = "lsbx_Evaluations";
-            this.lsbx_Evaluations.Size = new System.Drawing.Size(193, 102);
+            this.lsbx_Evaluations.Size = new System.Drawing.Size(193, 94);
             this.lsbx_Evaluations.TabIndex = 32;
             this.lsbx_Evaluations.SelectedIndexChanged += new System.EventHandler(this.lsbx_Evaluations_SelectedIndexChanged);
             // 
@@ -217,11 +217,13 @@
             // 
             this.lbl_options.AutoSize = true;
             this.lbl_options.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.lbl_options.Location = new System.Drawing.Point(411, 238);
+            this.lbl_options.Font = new System.Drawing.Font("PMingLiU-ExtB", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_options.Location = new System.Drawing.Point(412, 240);
             this.lbl_options.Name = "lbl_options";
-            this.lbl_options.Size = new System.Drawing.Size(133, 13);
+            this.lbl_options.Size = new System.Drawing.Size(142, 11);
             this.lbl_options.TabIndex = 34;
             this.lbl_options.Text = "Choose an evaluation type";
+            this.lbl_options.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // EvaluationManager_Form
             // 

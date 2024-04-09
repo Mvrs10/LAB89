@@ -70,11 +70,11 @@
             // lbl_CourseDetails
             // 
             this.lbl_CourseDetails.AutoSize = true;
-            this.lbl_CourseDetails.Font = new System.Drawing.Font("PMingLiU-ExtB", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_CourseDetails.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_CourseDetails.Location = new System.Drawing.Point(27, 238);
             this.lbl_CourseDetails.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbl_CourseDetails.Name = "lbl_CourseDetails";
-            this.lbl_CourseDetails.Size = new System.Drawing.Size(0, 15);
+            this.lbl_CourseDetails.Size = new System.Drawing.Size(0, 17);
             this.lbl_CourseDetails.TabIndex = 24;
             // 
             // label4
@@ -132,13 +132,13 @@
             // 
             // lsbx_Courses
             // 
-            this.lsbx_Courses.Font = new System.Drawing.Font("PMingLiU-ExtB", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lsbx_Courses.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lsbx_Courses.FormattingEnabled = true;
-            this.lsbx_Courses.ItemHeight = 14;
+            this.lsbx_Courses.ItemHeight = 17;
             this.lsbx_Courses.Location = new System.Drawing.Point(180, 238);
             this.lsbx_Courses.Margin = new System.Windows.Forms.Padding(2);
             this.lsbx_Courses.Name = "lsbx_Courses";
-            this.lsbx_Courses.Size = new System.Drawing.Size(217, 186);
+            this.lsbx_Courses.Size = new System.Drawing.Size(217, 174);
             this.lsbx_Courses.TabIndex = 19;
             this.lsbx_Courses.SelectedIndexChanged += new System.EventHandler(this.lsbx_Courses_SelectedIndexChanged);
             // 

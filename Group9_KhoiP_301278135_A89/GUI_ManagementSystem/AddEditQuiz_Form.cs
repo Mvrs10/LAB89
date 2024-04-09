@@ -31,10 +31,17 @@ namespace GUI_ManagementSystem
             byte weight = Convert.ToByte(txb_Weight.Text);
             DateTime dueDate = dtp_DueDate.Value;
             uint numberOfQuestions = Convert.ToUInt32(txb_NumberOfQuestions.Text);
-            course.AddEvaluation(EvaluationType.Quiz, weight, name);
-            course.Evaluations[course.Evaluations.Count - 1].DueDate = dueDate;
+            try
+            {
+                course.AddEvaluation(EvaluationType.Quiz, weight, name);
+            }
+            catch (Exception)
+            {
+                throw;
+            }
             Quiz quiz = (Quiz)course.Evaluations[course.Evaluations.Count - 1];
             quiz.NumberOfQuestions = numberOfQuestions;
+            quiz.DueDate = dueDate;
             //quiz.NumberOfQuestions = numberOfQuestions;
             //quiz = new Quiz(course, weight, numberOfQuestions)
             //{

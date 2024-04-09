@@ -31,11 +31,11 @@ namespace GUI_ManagementSystem
 
         private void Btn_AddCourse_Click(object sender, EventArgs e) //Maria, Minh
         {
-            AddEditCourse_Form addEditCourse = new AddEditCourse_Form();
+            Course newCourse = default;
+            AddEditCourse_Form addEditCourse = new AddEditCourse_Form(newCourse);
             this.Hide();            
             addEditCourse.FormClosed += ShowThis;
             if (addEditCourse.ShowDialog() != DialogResult.OK) return;
-            courses.Add(addEditCourse.course);
             updateCourseListBox();
         }
 
@@ -53,8 +53,7 @@ namespace GUI_ManagementSystem
         private void Btn_EditCourse_Click(object sender, EventArgs e) //Maria, Minh
         {
             Course editedCourse = lsbx_Courses.SelectedItem as Course;
-            AddEditCourse_Form addEditCourse = new AddEditCourse_Form();
-            addEditCourse.course = editedCourse;
+            AddEditCourse_Form addEditCourse = new AddEditCourse_Form(editedCourse);
             this.Hide();
             addEditCourse.FormClosed += ShowThis;
             if (addEditCourse.ShowDialog() != DialogResult.OK) return;            

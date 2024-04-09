@@ -13,11 +13,12 @@ namespace GUI_ManagementSystem
 {
     public partial class AddEditTest_Form : Form
     {
-        public Course course;
-        public Evaluation evaluation;
-        public AddEditTest_Form() //Maria, Minh
+        Course course;
+        Evaluation evaluation;
+        public AddEditTest_Form(Course course) //Maria, Minh
         {
             InitializeComponent();
+            this.course = course;
         }
 
         private void AddEditTest_Form_Load(object sender, EventArgs e) //Maria, Minh
@@ -35,11 +36,14 @@ namespace GUI_ManagementSystem
             string name = txb_Name.Text;
             byte weight = Convert.ToByte(txb_Weight.Text);
             DateTime dueDate = dtp_DueDate.Value;
-            evaluation = new Evaluation(course, EvaluationType.Test, weight)
+            try
             {
-                DueDate = dueDate,
-                Name = name
-            };
+                course.AddEvaluation(EvaluationType.Test, weight, name, dueDate);
+            }
+            catch (Exception)
+            {
+                throw;
+            }
             DialogResult = DialogResult.OK;
             Close();
         }

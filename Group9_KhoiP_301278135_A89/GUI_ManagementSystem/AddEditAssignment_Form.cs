@@ -13,11 +13,12 @@ namespace GUI_ManagementSystem
 {
     public partial class AddEditAssignment_Form : Form
     {
-        public Assignment assignment;
-        public Course course;
-        public AddEditAssignment_Form() //Maria, Minh
+        Assignment assignment;
+        Course course;
+        public AddEditAssignment_Form(Course course) //Maria, Minh
         {
             InitializeComponent();
+            this.course = course;
         }
         private void btn_OkAssignment_Click(object sender, EventArgs e) //Maria, Minh
         {
@@ -25,7 +26,14 @@ namespace GUI_ManagementSystem
             byte weight = Convert.ToByte(txb_Weight.Text);
             DateTime dueDate = dtp_DueDate.Value;
             bool isGroupAssignment = ckbx_IsGroupAssignment.Checked;
-            course.AddEvaluation(EvaluationType.Assignment, weight, name, dueDate);
+            try
+            {
+                course.AddEvaluation(EvaluationType.Assignment, weight, name, dueDate);
+            }
+            catch (Exception)
+            {
+                throw;
+            }
             assignment = course.Evaluations[course.Evaluations.Count - 1] as Assignment;
             assignment.IsGroupAssignment = isGroupAssignment;
             //assignment = new Assignment(course, weight, dueDate, isGroupAssignment);
