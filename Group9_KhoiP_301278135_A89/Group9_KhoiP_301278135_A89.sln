@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo", "Demo\Demo.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GUI_ManagementSystem", "GUI_ManagementSystem\GUI_ManagementSystem.csproj", "{DE743CA5-F216-4688-A640-4C30E2CB7381}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskManagementSystem_Tests", "TaskManagementSystem_Tests\TaskManagementSystem_Tests.csproj", "{53EB57A5-8146-4436-AD22-87052826482C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{DE743CA5-F216-4688-A640-4C30E2CB7381}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DE743CA5-F216-4688-A640-4C30E2CB7381}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DE743CA5-F216-4688-A640-4C30E2CB7381}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53EB57A5-8146-4436-AD22-87052826482C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53EB57A5-8146-4436-AD22-87052826482C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53EB57A5-8146-4436-AD22-87052826482C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53EB57A5-8146-4436-AD22-87052826482C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

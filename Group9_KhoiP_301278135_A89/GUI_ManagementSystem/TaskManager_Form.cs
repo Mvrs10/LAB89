@@ -56,5 +56,10 @@ namespace GUI_ManagementSystem
 
             this.Close();
         }
+
+        private void TaskManager_Form_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

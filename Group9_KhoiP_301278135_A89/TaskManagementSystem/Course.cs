@@ -155,15 +155,19 @@ namespace TaskManagementSystem
         // Action member #4
         public override string ToString()
         {
-            string toString = $"Course info - Code:{Code}, Total Grade: {Grade}";
+            string toString = $"ID:{Id}, Code:{Code}";
             if (evaluations.Count == 0)
             {
-                return $"{toString}\nNo current evaluation";
+                return $"{toString}";
             }
             else
             {
-                return $"{toString}\nEvaluations: \n{String.Join("\n", evaluations)}";
+                return $"{toString}";
             }
+        }
+        public string Formatted_String()
+        {
+            return $"Code:{Code}\nName:{Name}\nSemester:{Semester}\nTotal Grade: {Grade}";
         }
     }
 }

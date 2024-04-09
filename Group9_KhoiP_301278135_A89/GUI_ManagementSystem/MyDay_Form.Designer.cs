@@ -41,12 +41,14 @@
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label3.Font = new System.Drawing.Font("PMingLiU-ExtB", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(187, 165);
+            this.label3.Location = new System.Drawing.Point(127, 135);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(446, 40);
+            this.label3.Size = new System.Drawing.Size(413, 32);
             this.label3.TabIndex = 29;
-            this.label3.Text = "Organize your daily work more effectively, \r\nensuring that important tasks are co" +
-    "mpleted on time.";
+            this.label3.Text = "Organize your daily work more effectively, \r\nensuring that important tasks will b" +
+    "e completed on time.";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // label2
             // 
@@ -54,9 +56,10 @@
             this.label2.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label2.Font = new System.Drawing.Font("PMingLiU-ExtB", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.DarkOliveGreen;
-            this.label2.Location = new System.Drawing.Point(186, 272);
+            this.label2.Location = new System.Drawing.Point(140, 221);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(215, 30);
+            this.label2.Size = new System.Drawing.Size(171, 24);
             this.label2.TabIndex = 28;
             this.label2.Text = "All today\'s task:";
             // 
@@ -66,9 +69,10 @@
             this.label1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label1.Font = new System.Drawing.Font("PMingLiU-ExtB", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.DarkOliveGreen;
-            this.label1.Location = new System.Drawing.Point(244, 101);
+            this.label1.Location = new System.Drawing.Point(183, 82);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(286, 47);
+            this.label1.Size = new System.Drawing.Size(236, 38);
             this.label1.TabIndex = 27;
             this.label1.Text = "View My Day";
             // 
@@ -77,37 +81,42 @@
             this.lbl_MyDayDetails.AutoSize = true;
             this.lbl_MyDayDetails.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.lbl_MyDayDetails.Font = new System.Drawing.Font("PMingLiU-ExtB", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_MyDayDetails.Location = new System.Drawing.Point(188, 327);
+            this.lbl_MyDayDetails.Location = new System.Drawing.Point(141, 266);
+            this.lbl_MyDayDetails.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbl_MyDayDetails.Name = "lbl_MyDayDetails";
-            this.lbl_MyDayDetails.Size = new System.Drawing.Size(124, 54);
+            this.lbl_MyDayDetails.Size = new System.Drawing.Size(105, 45);
             this.lbl_MyDayDetails.TabIndex = 31;
             this.lbl_MyDayDetails.Text = "**THIS IS \r\nAN INVISIBLE \r\nLABEL**";
+            this.lbl_MyDayDetails.Visible = false;
             // 
             // btn_GoMain
             // 
             this.btn_GoMain.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_GoMain.BackgroundImage")));
-            this.btn_GoMain.Location = new System.Drawing.Point(33, 558);
+            this.btn_GoMain.Location = new System.Drawing.Point(25, 453);
+            this.btn_GoMain.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btn_GoMain.Name = "btn_GoMain";
-            this.btn_GoMain.Size = new System.Drawing.Size(74, 63);
+            this.btn_GoMain.Size = new System.Drawing.Size(56, 51);
             this.btn_GoMain.TabIndex = 32;
             this.btn_GoMain.UseVisualStyleBackColor = true;
             this.btn_GoMain.Click += new System.EventHandler(this.Btn_GoMain_Click);
             // 
             // MyDay_Form
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(735, 633);
+            this.ClientSize = new System.Drawing.Size(551, 514);
             this.Controls.Add(this.btn_GoMain);
             this.Controls.Add(this.lbl_MyDayDetails);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "MyDay_Form";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Today\'s Tasks";
+            this.Load += new System.EventHandler(this.MyDay_Form_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

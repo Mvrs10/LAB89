@@ -7,12 +7,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using TaskManagementSystem;
 
 namespace GUI_ManagementSystem
 {
     public partial class Main_Form : Form
     {
-        public Main_Form()
+        public Main_Form() //Maria, Minh
         {
             InitializeComponent();
             btn_ManageCourses.Click += Btn_ManageCourses_Click;
@@ -20,40 +21,44 @@ namespace GUI_ManagementSystem
             btn_ManageTasks.Click += Btn_ManageTasks_Click;
             btn_ViewMyDay.Click += Btn_ViewMyDay_Click;
         }
-        private void Btn_ManageCourses_Click(object sender, EventArgs e)
+        private void Btn_ManageCourses_Click(object sender, EventArgs e) //Maria, Minh
         {
             CourseManager_Form courseManagerForm = new CourseManager_Form();
             courseManagerForm.Show();
             this.Hide();
-            courseManagerForm.FormClosed += Main_FormClosed;
+            courseManagerForm.FormClosed += ShowThis;
         }
 
-        private void Btn_ManageEvals_Click(object sender, EventArgs e)
+        private void Btn_ManageEvals_Click(object sender, EventArgs e) //Maria, Minh
         {
             EvaluationManager_Form evaluationManagerForm = new EvaluationManager_Form();
             evaluationManagerForm.Show();
             this.Hide();
-            evaluationManagerForm.FormClosed += Main_FormClosed;
+            evaluationManagerForm.FormClosed += ShowThis;
         }
 
-        private void Btn_ManageTasks_Click(object sender, EventArgs e)
+        private void Btn_ManageTasks_Click(object sender, EventArgs e) //Maria, Minh
         {
             TaskManager_Form taskManagerForm = new TaskManager_Form();
             taskManagerForm.Show();
             this.Hide();
-            taskManagerForm.FormClosed += Main_FormClosed;
+            taskManagerForm.FormClosed += ShowThis;
         }
 
-        private void Btn_ViewMyDay_Click(object sender, EventArgs e)
+        private void Btn_ViewMyDay_Click(object sender, EventArgs e) //Maria, Minh
         {
             MyDay_Form myDayForm = new MyDay_Form();
             myDayForm.Show();
             this.Hide();
-            myDayForm.FormClosed += Main_FormClosed;
+            myDayForm.FormClosed += ShowThis;
         }
-        private void Main_FormClosed(object sender, FormClosedEventArgs e)
+        private void ShowThis(object sender, FormClosedEventArgs e) //Maria, Minh
         {
             this.Show();
+        }
+        private void Main_Form_Load(object sender, EventArgs e) //Maria
+        {
+
         }
     }
 }

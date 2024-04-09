@@ -12,17 +12,19 @@ namespace GUI_ManagementSystem
 {
     public partial class ItemDeleted_Form : Form
     {
-        public ItemDeleted_Form()
+        public ItemDeleted_Form() //Maria, Minh
         {
             InitializeComponent();
-            btn_OkItemDeleted.Click += Btn_OkItemDeleted_Click;
         }
 
-        private void Btn_OkItemDeleted_Click(object sender, EventArgs e)
+        private void Btn_OkItemDeleted_Click(object sender, EventArgs e) //Maria, Minh
         {
-            //Okay button from the ItemDeleted_Form must update the Evaluation Manager_Form list
-            //Is showing the DeleteConfirmation_Form when clicking, this must change 
-            this.Close();
+            Close();
+        }
+
+        private void ItemDeleted_Form_Load(object sender, EventArgs e) //Maria, Minh
+        {
+
         }
     }
 }

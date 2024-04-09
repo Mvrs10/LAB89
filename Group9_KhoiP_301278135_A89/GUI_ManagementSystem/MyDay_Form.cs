@@ -12,14 +12,24 @@ namespace GUI_ManagementSystem
 {
     public partial class MyDay_Form : Form
     {
-        public MyDay_Form()
+        public MyDay_Form() //Maria, Minh
         {
             InitializeComponent();
-            btn_GoMain.Click += Btn_GoMain_Click;
+            //btn_GoMain.Click += Btn_GoMain_Click;
         }
-        private void Btn_GoMain_Click(object sender, EventArgs e)
+        private void Btn_GoMain_Click(object sender, EventArgs e) //Maria, Minh
         {
-            this.Close();
+            Close();
+        }
+
+        private void label3_Click(object sender, EventArgs e) //Maria, Minh
+        {
+
+        }
+
+        private void MyDay_Form_Load(object sender, EventArgs e) //Maria, Minh
+        {
+
         }
     }
 }

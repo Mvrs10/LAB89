@@ -12,9 +12,14 @@ namespace GUI_ManagementSystem
 {
     public partial class AddEditTask_Form : Form
     {
-        public AddEditTask_Form()
+        public AddEditTask_Form() //Maria, Minh
         {
             InitializeComponent();
+        }
+
+        private void AddEditTask_Form_Load(object sender, EventArgs e) //Maria, Minh
+        {
+
         }
     }
 }

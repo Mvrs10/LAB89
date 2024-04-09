@@ -190,14 +190,19 @@ namespace TaskManagementSystem
         // Action member #3
         public override string ToString()
         {
-            string toString = $"Type: {Type}-{Name}, Grade: {Grade}, Weight: {Weight}%";
+            return $"Type: {Type} {Name}";
+
+        }
+        public string FormatedString()
+        {
+            string toString = $"Type: {Type} {Name}\nGrade: {Grade}\nWeight: {Weight}%\n";
             if (DueDate == default)
             {
-                return $"{toString}, No Due Date";
+                return $"{toString}No Due Date";
             }
             else
             {
-                return $"{toString}, Due Date: {DueDate}";
+                return $"{toString}Due Date: {DueDate.Date}";
             }
         }
     }

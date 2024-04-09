@@ -12,9 +12,14 @@ namespace GUI_ManagementSystem
 {
     public partial class ErrorBox_Form : Form
     {
-        public ErrorBox_Form()
+        public ErrorBox_Form() //Maria, Minh
         {
             InitializeComponent();
+        }
+
+        private void ErrorBox_Form_Load(object sender, EventArgs e) //Maria, Minh
+        {
+
         }
     }
 }

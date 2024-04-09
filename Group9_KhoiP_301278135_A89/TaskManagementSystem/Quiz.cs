@@ -18,7 +18,7 @@ namespace TaskManagementSystem
         // Action member #1
         public override string ToString()
         {
-            return $"{base.ToString()}, Number of Questions: {NumberOfQuestions}";
+            return $"{base.ToString()} - #Questions: {NumberOfQuestions}";
         }
     }
 }
