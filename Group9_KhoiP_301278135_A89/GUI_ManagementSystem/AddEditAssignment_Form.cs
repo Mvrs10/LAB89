@@ -15,13 +15,13 @@ namespace GUI_ManagementSystem
     {
         Assignment assignment;
         Course course;
-        public AddEditAssignment_Form(Course course, Assignment assignment) //Maria, Minh
+        public AddEditAssignment_Form(Course course, Assignment assignment)
         {
             InitializeComponent();
             this.course = course;
             this.assignment = assignment;
         }
-        private void btn_OkAssignment_Click(object sender, EventArgs e) //Maria, Minh
+        private void btn_OkAssignment_Click(object sender, EventArgs e)
         {
             string name = txb_Name.Text;
             byte weight = Convert.ToByte(txb_Weight.Text);
@@ -47,12 +47,10 @@ namespace GUI_ManagementSystem
                 assignment.DueDate = dueDate;
                 assignment.IsGroupAssignment = isGroupAssignment;
             }
-            //assignment = new Assignment(course, weight, dueDate, isGroupAssignment);
-            //assignment.Name = name;
             DialogResult = DialogResult.OK;
             Close();
         }
-        private void AddEditAssignment_Form_Load(object sender, EventArgs e)//Maria, Minh
+        private void AddEditAssignment_Form_Load(object sender, EventArgs e)
         {
             txb_Course.Text = course.ToString();
             if (assignment != null)
@@ -64,7 +62,7 @@ namespace GUI_ManagementSystem
             }
         }
 
-        private void btn_CancelAssignment_Click(object sender, EventArgs e)//Maria, Minh
+        private void btn_CancelAssignment_Click(object sender, EventArgs e)
         {
             Close();
         }

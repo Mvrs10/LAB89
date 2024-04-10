@@ -15,14 +15,14 @@ namespace GUI_ManagementSystem
     {
         Course course;
         Evaluation evaluation;
-        public AddEditDiscussion_Form(Course course, Evaluation evaluation) //Maria, Minh
+        public AddEditDiscussion_Form(Course course, Evaluation evaluation)
         {
             InitializeComponent();
             this.course = course;
             this.evaluation = evaluation;
         }
 
-        private void AddEditDiscussion_Form_Load(object sender, EventArgs e) //Maria, Minh
+        private void AddEditDiscussion_Form_Load(object sender, EventArgs e)
         {
             txb_Course.Text = course.ToString();
             if (evaluation != null)

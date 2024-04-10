@@ -12,23 +12,23 @@ namespace GUI_ManagementSystem
 {
     public partial class DeleteConfirmation_Form : Form
     {
-        public DeleteConfirmation_Form() //Maria, Minh
+        public DeleteConfirmation_Form()
         {
             InitializeComponent();
         }
-        private void Btn_OkDeleteItem_Click(object sender, EventArgs e) //Maria, Minh
+        private void Btn_OkDeleteItem_Click(object sender, EventArgs e)
         {
             DialogResult = DialogResult.OK;
             ItemDeleted_Form itemDeleted = new ItemDeleted_Form();
             itemDeleted.ShowDialog();
             this.Close();
         }
-        private void btn_CancelDeleteItem_Click(object sender, EventArgs e) //Maria, Minh
+        private void btn_CancelDeleteItem_Click(object sender, EventArgs e)
         {
             this.Close();
         }
 
-        private void DeleteConfirmation_Form_Load(object sender, EventArgs e) //Maria, Minh
+        private void DeleteConfirmation_Form_Load(object sender, EventArgs e)
         {
 
         }

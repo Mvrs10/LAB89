@@ -46,6 +46,7 @@
             this.lbl_NoCourse = new System.Windows.Forms.Label();
             this.lbl_NoEvaluation = new System.Windows.Forms.Label();
             this.dtp_DueDate = new System.Windows.Forms.DateTimePicker();
+            this.lbl_Instruction = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btn_Cancel
@@ -235,7 +236,7 @@
             this.lbl_NoCourse.AutoSize = true;
             this.lbl_NoCourse.BackColor = System.Drawing.SystemColors.Window;
             this.lbl_NoCourse.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_NoCourse.Location = new System.Drawing.Point(409, 146);
+            this.lbl_NoCourse.Location = new System.Drawing.Point(407, 168);
             this.lbl_NoCourse.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbl_NoCourse.Name = "lbl_NoCourse";
             this.lbl_NoCourse.Size = new System.Drawing.Size(124, 17);
@@ -248,7 +249,7 @@
             this.lbl_NoEvaluation.AutoSize = true;
             this.lbl_NoEvaluation.BackColor = System.Drawing.SystemColors.Window;
             this.lbl_NoEvaluation.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_NoEvaluation.Location = new System.Drawing.Point(690, 146);
+            this.lbl_NoEvaluation.Location = new System.Drawing.Point(696, 168);
             this.lbl_NoEvaluation.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbl_NoEvaluation.Name = "lbl_NoEvaluation";
             this.lbl_NoEvaluation.Size = new System.Drawing.Size(144, 17);
@@ -263,12 +264,26 @@
             this.dtp_DueDate.Size = new System.Drawing.Size(202, 20);
             this.dtp_DueDate.TabIndex = 87;
             // 
+            // lbl_Instruction
+            // 
+            this.lbl_Instruction.AutoSize = true;
+            this.lbl_Instruction.BackColor = System.Drawing.SystemColors.Window;
+            this.lbl_Instruction.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_Instruction.Location = new System.Drawing.Point(711, 146);
+            this.lbl_Instruction.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lbl_Instruction.Name = "lbl_Instruction";
+            this.lbl_Instruction.Size = new System.Drawing.Size(98, 17);
+            this.lbl_Instruction.TabIndex = 88;
+            this.lbl_Instruction.Text = "Select a course";
+            this.lbl_Instruction.Visible = false;
+            // 
             // AddEditTask_Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(1033, 331);
+            this.Controls.Add(this.lbl_Instruction);
             this.Controls.Add(this.dtp_DueDate);
             this.Controls.Add(this.lbl_NoEvaluation);
             this.Controls.Add(this.lbl_NoCourse);
@@ -316,5 +331,6 @@
         private System.Windows.Forms.Label lbl_NoCourse;
         private System.Windows.Forms.Label lbl_NoEvaluation;
         private System.Windows.Forms.DateTimePicker dtp_DueDate;
+        private System.Windows.Forms.Label lbl_Instruction;
     }
 }

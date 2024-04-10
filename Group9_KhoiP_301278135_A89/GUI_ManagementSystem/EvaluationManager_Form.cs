@@ -15,16 +15,16 @@ namespace GUI_ManagementSystem
     {
         CourseManager courseManager = new CourseManager();
         List<Course> courses = CourseManager.Courses;        
-        public EvaluationManager_Form() //Maria, Minh
+        public EvaluationManager_Form()
         {
             InitializeComponent();
             btn_GoMain.Click += Btn_GoMain_Click;
         }
-        private void Btn_GoMain_Click(object sender, EventArgs e) //Maria, Minh
+        private void Btn_GoMain_Click(object sender, EventArgs e)
         {
             this.Close();
         }
-        private void btn_AddEvaluation_Click(object sender, EventArgs e) //Maria, Minh
+        private void btn_AddEvaluation_Click(object sender, EventArgs e)
         {
             Course course = courses[lsbx_Courses.SelectedIndex];
             //course = lsbx_Courses.SelectedItem as Course;
@@ -69,7 +69,7 @@ namespace GUI_ManagementSystem
             }
             updateCourseListBox();
         }
-        private void btn_EditEval_Click(object sender, EventArgs e) //Maria, Minh
+        private void btn_EditEval_Click(object sender, EventArgs e)
         {
             Course course = courses[lsbx_Courses.SelectedIndex];
             //course = lsbx_Courses.SelectedItem as Course;
@@ -112,7 +112,7 @@ namespace GUI_ManagementSystem
             }
 
         }
-        private void ShowThis(object sender, FormClosedEventArgs e) //Maria, Minh
+        private void ShowThis(object sender, FormClosedEventArgs e)
         {
             cbbx_EvaluationType.SelectedIndex = 0;
             lbl_EvaluationList.Text = string.Empty;
@@ -122,7 +122,7 @@ namespace GUI_ManagementSystem
             this.Show();
         }
 
-        private void EvaluationManager_Form_Load(object sender, EventArgs e) //Maria, Minh
+        private void EvaluationManager_Form_Load(object sender, EventArgs e)
         {
             updateCourseListBox();
             cbbx_EvaluationType.SelectedIndex = 0;
@@ -138,7 +138,7 @@ namespace GUI_ManagementSystem
             updateEvaluationListBox();
         }
 
-        private void lsbx_Courses_SelectedIndexChanged(object sender, EventArgs e) //Maria, Minh
+        private void lsbx_Courses_SelectedIndexChanged(object sender, EventArgs e)
         {
             if (lsbx_Courses.SelectedIndex == -1) return;
             Course course = courses[lsbx_Courses.SelectedIndex];

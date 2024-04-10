@@ -15,14 +15,14 @@ namespace GUI_ManagementSystem
     {
         Course course;
         Quiz quiz;
-        public AddEditQuiz_Form(Course course, Quiz quiz) //Maria, Minh
+        public AddEditQuiz_Form(Course course, Quiz quiz)
         {
             InitializeComponent();
             this.course = course;
             this.quiz = quiz;
         }
 
-        private void AddEditQuiz_Form_Load(object sender, EventArgs e) //Maria, Minh
+        private void AddEditQuiz_Form_Load(object sender, EventArgs e)
         {
             txb_Course.Text = course.ToString();
             if (quiz != null)
@@ -61,12 +61,6 @@ namespace GUI_ManagementSystem
                 quiz.DueDate = dueDate;
                 quiz.NumberOfQuestions = numberOfQuestions;
             }
-            //quiz.NumberOfQuestions = numberOfQuestions;
-            //quiz = new Quiz(course, weight, numberOfQuestions)
-            //{
-            //    Name = name,
-            //    DueDate = dueDate
-            //};
             DialogResult = DialogResult.OK;
             Close();
         }

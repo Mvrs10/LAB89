@@ -17,19 +17,19 @@ namespace GUI_ManagementSystem
         List<Course> courses=CourseManager.Courses;
         List<TaskManagementSystem.Task> tasks=new List<TaskManagementSystem.Task>();
 
-        public CourseManager_Form() //Maria, Minh
+        public CourseManager_Form()
         {
             InitializeComponent();
             btn_GoMain.Click += Btn_GoMain_Click;
             btn_AddCourse.Click += Btn_AddCourse_Click;
         }
 
-        private void Btn_GoMain_Click(object sender, EventArgs e) //Maria, Minh
+        private void Btn_GoMain_Click(object sender, EventArgs e)
         {
             this.Close();
         }
 
-        private void Btn_AddCourse_Click(object sender, EventArgs e) //Maria, Minh
+        private void Btn_AddCourse_Click(object sender, EventArgs e)
         {
             AddEditCourse_Form addEditCourse = new AddEditCourse_Form(default);
             this.Hide();            
@@ -49,7 +49,7 @@ namespace GUI_ManagementSystem
             btn_DeleteCourse.Visible = lsbx_Courses.SelectedIndex != -1;
         }
 
-        private void Btn_EditCourse_Click(object sender, EventArgs e) //Maria, Minh
+        private void Btn_EditCourse_Click(object sender, EventArgs e)
         {
             Course editedCourse = lsbx_Courses.SelectedItem as Course;
             AddEditCourse_Form addEditCourse = new AddEditCourse_Form(editedCourse);
@@ -58,7 +58,7 @@ namespace GUI_ManagementSystem
             if (addEditCourse.ShowDialog() != DialogResult.OK) return;            
             updateCourseListBox();
         }
-        private void Btn_DeleteCourse_Click(object sender, EventArgs e) //Maria, Minh
+        private void Btn_DeleteCourse_Click(object sender, EventArgs e)
         {
             DeleteConfirmation_Form deleteConfirmation = new DeleteConfirmation_Form();
             this.Hide();
@@ -71,13 +71,13 @@ namespace GUI_ManagementSystem
             }
             else return;
         }
-        private void ShowThis(object sender, FormClosedEventArgs e) //Maria, Minh
+        private void ShowThis(object sender, FormClosedEventArgs e)
         {
             this.Show();
             lbl_CourseDetails.Text = string.Empty;
         }
 
-        private void CourseManager_Form_Load(object sender, EventArgs e) //Maria, Minh
+        private void CourseManager_Form_Load(object sender, EventArgs e)
         {
             updateCourseListBox();
         }

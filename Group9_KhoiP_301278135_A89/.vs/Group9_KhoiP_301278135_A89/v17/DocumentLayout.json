@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\gui_managementsystem\\main_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|d:\\centennial college\\lab89\\lab89\\group9_khoip_301278135_a89\\gui_managementsystem\\main_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|solutionrelative:gui_managementsystem\\main_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -11,12 +11,44 @@
       "RelativeMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|solutionrelative:gui_managementsystem\\main_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\gui_managementsystem\\taskmanager_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|solutionrelative:gui_managementsystem\\taskmanager_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\gui_managementsystem\\myday_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|solutionrelative:gui_managementsystem\\myday_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\gui_managementsystem\\taskmanager_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|solutionrelative:gui_managementsystem\\taskmanager_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\gui_managementsystem\\deleteconfirmation_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|solutionrelative:gui_managementsystem\\deleteconfirmation_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\gui_managementsystem\\myday_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|solutionrelative:gui_managementsystem\\myday_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\gui_managementsystem\\itemdeleted_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|solutionrelative:gui_managementsystem\\itemdeleted_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\gui_managementsystem\\itemdeleted_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|solutionrelative:gui_managementsystem\\itemdeleted_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\gui_managementsystem\\evaluationmanager_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|solutionrelative:gui_managementsystem\\evaluationmanager_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\gui_managementsystem\\evaluationmanager_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|solutionrelative:gui_managementsystem\\evaluationmanager_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\gui_managementsystem\\errorbox_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|solutionrelative:gui_managementsystem\\errorbox_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\gui_managementsystem\\errorbox_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|solutionrelative:gui_managementsystem\\errorbox_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\gui_managementsystem\\deleteconfirmation_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|solutionrelative:gui_managementsystem\\deleteconfirmation_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\gui_managementsystem\\coursemanager_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,23 +59,15 @@
       "RelativeMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|solutionrelative:gui_managementsystem\\coursemanager_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\gui_managementsystem\\myday_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|solutionrelative:gui_managementsystem\\myday_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\gui_managementsystem\\addedittest_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|solutionrelative:gui_managementsystem\\addedittest_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\gui_managementsystem\\addeditdiscussion_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|solutionrelative:gui_managementsystem\\addeditdiscussion_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\gui_managementsystem\\addedittest_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|solutionrelative:gui_managementsystem\\addedittest_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\gui_managementsystem\\myday_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|solutionrelative:gui_managementsystem\\myday_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0662521D-BEC9-406B-A8BE-83F89005899B}|TaskManagementSystem\\TaskManagementSystem.csproj|d:\\centennial college\\lab89\\lab89\\group9_khoip_301278135_a89\\taskmanagementsystem\\myday.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0662521D-BEC9-406B-A8BE-83F89005899B}|TaskManagementSystem\\TaskManagementSystem.csproj|solutionrelative:taskmanagementsystem\\myday.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|d:\\centennial college\\lab89\\lab89\\group9_khoip_301278135_a89\\gui_managementsystem\\addedittask_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\gui_managementsystem\\addedittask_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|solutionrelative:gui_managementsystem\\addedittask_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -51,12 +75,56 @@
       "RelativeMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|solutionrelative:gui_managementsystem\\addedittask_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\gui_managementsystem\\addeditquiz_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|solutionrelative:gui_managementsystem\\addeditquiz_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\gui_managementsystem\\addeditquiz_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|solutionrelative:gui_managementsystem\\addeditquiz_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\gui_managementsystem\\addeditproject_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|solutionrelative:gui_managementsystem\\addeditproject_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\gui_managementsystem\\addeditproject_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|solutionrelative:gui_managementsystem\\addeditproject_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\gui_managementsystem\\addeditdiscussion_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|solutionrelative:gui_managementsystem\\addeditdiscussion_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\gui_managementsystem\\addeditdiscussion_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|solutionrelative:gui_managementsystem\\addeditdiscussion_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\gui_managementsystem\\addeditcourse_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|solutionrelative:gui_managementsystem\\addeditcourse_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\gui_managementsystem\\evaluationmanager_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|solutionrelative:gui_managementsystem\\evaluationmanager_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\gui_managementsystem\\addeditcourse_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|solutionrelative:gui_managementsystem\\addeditcourse_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\gui_managementsystem\\addeditassignment_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|solutionrelative:gui_managementsystem\\addeditassignment_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\gui_managementsystem\\addeditassignment_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|solutionrelative:gui_managementsystem\\addeditassignment_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\gui_managementsystem\\taskmanager_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|solutionrelative:gui_managementsystem\\taskmanager_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\gui_managementsystem\\taskmanager_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|solutionrelative:gui_managementsystem\\taskmanager_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0662521D-BEC9-406B-A8BE-83F89005899B}|TaskManagementSystem\\TaskManagementSystem.csproj|D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\taskmanagementsystem\\myday.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0662521D-BEC9-406B-A8BE-83F89005899B}|TaskManagementSystem\\TaskManagementSystem.csproj|solutionrelative:taskmanagementsystem\\myday.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0662521D-BEC9-406B-A8BE-83F89005899B}|TaskManagementSystem\\TaskManagementSystem.csproj|D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\taskmanagementsystem\\taskmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -65,50 +133,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{0662521D-BEC9-406B-A8BE-83F89005899B}|TaskManagementSystem\\TaskManagementSystem.csproj|D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\taskmanagementsystem\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0662521D-BEC9-406B-A8BE-83F89005899B}|TaskManagementSystem\\TaskManagementSystem.csproj|solutionrelative:taskmanagementsystem\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\gui_managementsystem\\addeditquiz_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|solutionrelative:gui_managementsystem\\addeditquiz_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\gui_managementsystem\\addeditproject_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|solutionrelative:gui_managementsystem\\addeditproject_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\gui_managementsystem\\addeditcourse_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|solutionrelative:gui_managementsystem\\addeditcourse_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\gui_managementsystem\\evaluationmanager_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|solutionrelative:gui_managementsystem\\evaluationmanager_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\gui_managementsystem\\deleteconfirmation_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|solutionrelative:gui_managementsystem\\deleteconfirmation_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\gui_managementsystem\\deleteconfirmation_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|solutionrelative:gui_managementsystem\\deleteconfirmation_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\gui_managementsystem\\addeditproject_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|solutionrelative:gui_managementsystem\\addeditproject_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\gui_managementsystem\\addeditdiscussion_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|solutionrelative:gui_managementsystem\\addeditdiscussion_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\gui_managementsystem\\addeditassignment_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|solutionrelative:gui_managementsystem\\addeditassignment_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\gui_managementsystem\\addeditquiz_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|solutionrelative:gui_managementsystem\\addeditquiz_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\gui_managementsystem\\addeditassignment_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|solutionrelative:gui_managementsystem\\addeditassignment_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0662521D-BEC9-406B-A8BE-83F89005899B}|TaskManagementSystem\\TaskManagementSystem.csproj|D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\taskmanagementsystem\\assignment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -125,14 +149,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{53EB57A5-8146-4436-AD22-87052826482C}|TaskManagementSystem_Tests\\TaskManagementSystem_Tests.csproj|D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\taskmanagementsystem_tests\\taskmanagementsystem_coursetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{53EB57A5-8146-4436-AD22-87052826482C}|TaskManagementSystem_Tests\\TaskManagementSystem_Tests.csproj|solutionrelative:taskmanagementsystem_tests\\taskmanagementsystem_coursetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\gui_managementsystem\\errorbox_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|solutionrelative:gui_managementsystem\\errorbox_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\gui_managementsystem\\errorbox_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|solutionrelative:gui_managementsystem\\errorbox_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DE743CA5-F216-4688-A640-4C30E2CB7381}|GUI_ManagementSystem\\GUI_ManagementSystem.csproj|D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\gui_managementsystem\\taskmanager_form.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
@@ -190,156 +206,129 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 19,
+          "SelectedChildIndex": 29,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 28,
               "Title": "TaskManager_Form.cs [Design]",
               "DocumentMoniker": "D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\TaskManager_Form.cs",
               "RelativeDocumentMoniker": "GUI_ManagementSystem\\TaskManager_Form.cs",
-              "ToolTip": "D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\TaskManager_Form.cs [Design]",
-              "RelativeToolTip": "GUI_ManagementSystem\\TaskManager_Form.cs [Design]",
+              "ToolTip": "C:\\Users\\ALIEN\\Documents\\test\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\TaskManager_Form.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-08T14:05:40.77Z",
-              "IsPinned": true,
-              "EditorCaption": " [Design]"
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 29,
               "Title": "TaskManager_Form.cs",
               "DocumentMoniker": "D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\TaskManager_Form.cs",
               "RelativeDocumentMoniker": "GUI_ManagementSystem\\TaskManager_Form.cs",
               "ToolTip": "D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\TaskManager_Form.cs",
               "RelativeToolTip": "GUI_ManagementSystem\\TaskManager_Form.cs",
-              "ViewState": "AQIAAFsAAAAAAAAAAAAcwHoAAAAgAAAA",
+              "ViewState": "AQIAADYAAAAAAAAAAAAAAHoAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-08T14:05:39.717Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 12,
               "Title": "CourseManager_Form.cs",
               "DocumentMoniker": "D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\CourseManager_Form.cs",
               "RelativeDocumentMoniker": "GUI_ManagementSystem\\CourseManager_Form.cs",
               "ToolTip": "D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\CourseManager_Form.cs",
               "RelativeToolTip": "GUI_ManagementSystem\\CourseManager_Form.cs",
-              "ViewState": "AQIAAF0AAAAAAAAAAAAcwGoAAAAAAAAA",
+              "ViewState": "AQIAAGYAAAAAAAAAAAAkwFEAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-08T14:05:40.764Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 8,
               "Title": "EvaluationManager_Form.cs [Design]",
               "DocumentMoniker": "D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\EvaluationManager_Form.cs",
               "RelativeDocumentMoniker": "GUI_ManagementSystem\\EvaluationManager_Form.cs",
-              "ToolTip": "D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\EvaluationManager_Form.cs [Design]",
-              "RelativeToolTip": "GUI_ManagementSystem\\EvaluationManager_Form.cs [Design]",
+              "ToolTip": "C:\\Users\\ALIEN\\Documents\\test\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\EvaluationManager_Form.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-09T16:22:28.296Z",
-              "IsPinned": true,
-              "EditorCaption": " [Design]"
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 7,
               "Title": "EvaluationManager_Form.cs",
               "DocumentMoniker": "D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\EvaluationManager_Form.cs",
               "RelativeDocumentMoniker": "GUI_ManagementSystem\\EvaluationManager_Form.cs",
               "ToolTip": "D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\EvaluationManager_Form.cs",
               "RelativeToolTip": "GUI_ManagementSystem\\EvaluationManager_Form.cs",
-              "ViewState": "AQIAAEoAAAAAAAAAAAAIwKsAAAAeAAAA",
+              "ViewState": "AQIAAJ0AAAAAAAAAAAAzwIwAAABSAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-08T14:05:40.76Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 17,
               "Title": "AddEditTask_Form.cs [Design]",
               "DocumentMoniker": "D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\AddEditTask_Form.cs",
               "RelativeDocumentMoniker": "GUI_ManagementSystem\\AddEditTask_Form.cs",
-              "ToolTip": "D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\AddEditTask_Form.cs [Design]",
-              "RelativeToolTip": "GUI_ManagementSystem\\AddEditTask_Form.cs [Design]",
+              "ToolTip": "C:\\Users\\ALIEN\\Documents\\test\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\AddEditTask_Form.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-09T19:30:48.32Z",
-              "IsPinned": true,
-              "EditorCaption": " [Design]"
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 24,
               "Title": "AddEditCourse_Form.cs",
               "DocumentMoniker": "D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\AddEditCourse_Form.cs",
               "RelativeDocumentMoniker": "GUI_ManagementSystem\\AddEditCourse_Form.cs",
               "ToolTip": "D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\AddEditCourse_Form.cs",
               "RelativeToolTip": "GUI_ManagementSystem\\AddEditCourse_Form.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAqwC0AAAAMAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-08T14:05:40.751Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 16,
               "Title": "AddEditTask_Form.cs",
               "DocumentMoniker": "D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\AddEditTask_Form.cs",
               "RelativeDocumentMoniker": "GUI_ManagementSystem\\AddEditTask_Form.cs",
               "ToolTip": "D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\AddEditTask_Form.cs",
               "RelativeToolTip": "GUI_ManagementSystem\\AddEditTask_Form.cs",
-              "ViewState": "AQIAAD0AAAAAAAAAAAAQwCQAAAA1AAAA",
+              "ViewState": "AQIAAHsAAAAAAAAAAAAmwBoAAABGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-09T19:30:57.485Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 4,
               "Title": "MyDay_Form.cs",
               "DocumentMoniker": "D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\MyDay_Form.cs",
               "RelativeDocumentMoniker": "GUI_ManagementSystem\\MyDay_Form.cs",
               "ToolTip": "D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\MyDay_Form.cs",
               "RelativeToolTip": "GUI_ManagementSystem\\MyDay_Form.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAACEAAAAnAAAA",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAmwBkAAABAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-08T19:47:13.514Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "MyDay_Form.cs [Design]",
               "DocumentMoniker": "D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\MyDay_Form.cs",
               "RelativeDocumentMoniker": "GUI_ManagementSystem\\MyDay_Form.cs",
-              "ToolTip": "D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\MyDay_Form.cs [Design]",
-              "RelativeToolTip": "GUI_ManagementSystem\\MyDay_Form.cs [Design]",
+              "ToolTip": "C:\\Users\\ALIEN\\Documents\\test\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\MyDay_Form.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-08T19:47:06.614Z",
-              "IsPinned": true,
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "MyDay.cs",
-              "DocumentMoniker": "D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\TaskManagementSystem\\MyDay.cs",
-              "RelativeDocumentMoniker": "TaskManagementSystem\\MyDay.cs",
-              "ToolTip": "D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\TaskManagementSystem\\MyDay.cs",
-              "RelativeToolTip": "TaskManagementSystem\\MyDay.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAowDEAAABAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-10T01:15:25.767Z",
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -347,90 +336,199 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "AddEditProject_Form.cs [Design]",
-              "DocumentMoniker": "D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\AddEditProject_Form.cs",
-              "RelativeDocumentMoniker": "GUI_ManagementSystem\\AddEditProject_Form.cs",
-              "ToolTip": "D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\AddEditProject_Form.cs [Design]",
-              "RelativeToolTip": "GUI_ManagementSystem\\AddEditProject_Form.cs [Design]",
+              "DocumentIndex": 3,
+              "Title": "DeleteConfirmation_Form.cs [Design]",
+              "DocumentMoniker": "D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\DeleteConfirmation_Form.cs",
+              "RelativeDocumentMoniker": "GUI_ManagementSystem\\DeleteConfirmation_Form.cs",
+              "ToolTip": "C:\\Users\\ALIEN\\Documents\\test\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\DeleteConfirmation_Form.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-08T19:57:00.694Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-04-09T18:06:24.934Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "AddEditCourse_Form.cs [Design]",
-              "DocumentMoniker": "D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\AddEditCourse_Form.cs",
-              "RelativeDocumentMoniker": "GUI_ManagementSystem\\AddEditCourse_Form.cs",
-              "ToolTip": "D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\AddEditCourse_Form.cs [Design]",
-              "RelativeToolTip": "GUI_ManagementSystem\\AddEditCourse_Form.cs [Design]",
+              "DocumentIndex": 6,
+              "Title": "ItemDeleted_Form.cs",
+              "DocumentMoniker": "D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\ItemDeleted_Form.cs",
+              "RelativeDocumentMoniker": "GUI_ManagementSystem\\ItemDeleted_Form.cs",
+              "ToolTip": "D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\ItemDeleted_Form.cs",
+              "RelativeToolTip": "GUI_ManagementSystem\\ItemDeleted_Form.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAmwA4AAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-09T05:41:52.849Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-04-10T03:25:24.419Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Task.cs",
-              "DocumentMoniker": "D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\TaskManagementSystem\\Task.cs",
-              "RelativeDocumentMoniker": "TaskManagementSystem\\Task.cs",
-              "ToolTip": "D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\TaskManagementSystem\\Task.cs",
-              "RelativeToolTip": "TaskManagementSystem\\Task.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAgwB4AAAAgAAAA",
+              "DocumentIndex": 5,
+              "Title": "ItemDeleted_Form.cs [Design]",
+              "DocumentMoniker": "D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\ItemDeleted_Form.cs",
+              "RelativeDocumentMoniker": "GUI_ManagementSystem\\ItemDeleted_Form.cs",
+              "ToolTip": "C:\\Users\\ALIEN\\Documents\\test\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\ItemDeleted_Form.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-08T17:47:57.082Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-10T03:25:23.393Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "TaskManager.cs",
-              "DocumentMoniker": "D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\TaskManagementSystem\\TaskManager.cs",
-              "RelativeDocumentMoniker": "TaskManagementSystem\\TaskManager.cs",
-              "ToolTip": "D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\TaskManagementSystem\\TaskManager.cs",
-              "RelativeToolTip": "TaskManagementSystem\\TaskManager.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAQwCUAAABBAAAA",
+              "Title": "AddEditTest_Form.cs",
+              "DocumentMoniker": "D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\AddEditTest_Form.cs",
+              "RelativeDocumentMoniker": "GUI_ManagementSystem\\AddEditTest_Form.cs",
+              "ToolTip": "D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\AddEditTest_Form.cs",
+              "RelativeToolTip": "GUI_ManagementSystem\\AddEditTest_Form.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAkwBgAAABGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-08T17:48:07.646Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-10T03:24:15.358Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Main_Form.cs [Design]",
-              "DocumentMoniker": "D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\Main_Form.cs",
-              "RelativeDocumentMoniker": "GUI_ManagementSystem\\Main_Form.cs",
-              "ToolTip": "D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\Main_Form.cs [Design]",
-              "RelativeToolTip": "GUI_ManagementSystem\\Main_Form.cs [Design]",
+              "DocumentIndex": 15,
+              "Title": "AddEditTest_Form.cs [Design]",
+              "DocumentMoniker": "D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\AddEditTest_Form.cs",
+              "RelativeDocumentMoniker": "GUI_ManagementSystem\\AddEditTest_Form.cs",
+              "ToolTip": "C:\\Users\\ALIEN\\Documents\\test\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\AddEditTest_Form.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-08T14:07:18.016Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-04-10T03:24:14.327Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 20,
+              "Title": "AddEditProject_Form.cs",
+              "DocumentMoniker": "D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\AddEditProject_Form.cs",
+              "RelativeDocumentMoniker": "GUI_ManagementSystem\\AddEditProject_Form.cs",
+              "ToolTip": "D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\AddEditProject_Form.cs",
+              "RelativeToolTip": "GUI_ManagementSystem\\AddEditProject_Form.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAmwBgAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T20:07:11.375Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CourseManager_Form.cs [Design]",
+              "DocumentMoniker": "D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\CourseManager_Form.cs",
+              "RelativeDocumentMoniker": "GUI_ManagementSystem\\CourseManager_Form.cs",
+              "ToolTip": "C:\\Users\\ALIEN\\Documents\\test\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\CourseManager_Form.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T05:56:34.346Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DeleteConfirmation_Form.cs",
+              "DocumentMoniker": "D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\DeleteConfirmation_Form.cs",
+              "RelativeDocumentMoniker": "GUI_ManagementSystem\\DeleteConfirmation_Form.cs",
+              "ToolTip": "D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\DeleteConfirmation_Form.cs",
+              "RelativeToolTip": "GUI_ManagementSystem\\DeleteConfirmation_Form.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAcwA4AAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T18:06:26.346Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ErrorBox_Form.cs [Design]",
+              "DocumentMoniker": "D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\ErrorBox_Form.cs",
+              "RelativeDocumentMoniker": "GUI_ManagementSystem\\ErrorBox_Form.cs",
+              "ToolTip": "C:\\Users\\ALIEN\\Documents\\test\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\ErrorBox_Form.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T19:49:21.477Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ErrorBox_Form.cs",
+              "DocumentMoniker": "D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\ErrorBox_Form.cs",
+              "RelativeDocumentMoniker": "GUI_ManagementSystem\\ErrorBox_Form.cs",
+              "ToolTip": "D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\ErrorBox_Form.cs",
+              "RelativeToolTip": "GUI_ManagementSystem\\ErrorBox_Form.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAmwA4AAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T19:49:22.67Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AddEditProject_Form.cs [Design]",
+              "DocumentMoniker": "D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\AddEditProject_Form.cs",
+              "RelativeDocumentMoniker": "GUI_ManagementSystem\\AddEditProject_Form.cs",
+              "ToolTip": "C:\\Users\\ALIEN\\Documents\\test\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\AddEditProject_Form.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T19:57:00.694Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
               "Title": "AddEditDiscussion_Form.cs",
               "DocumentMoniker": "D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\AddEditDiscussion_Form.cs",
               "RelativeDocumentMoniker": "GUI_ManagementSystem\\AddEditDiscussion_Form.cs",
               "ToolTip": "D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\AddEditDiscussion_Form.cs",
               "RelativeToolTip": "GUI_ManagementSystem\\AddEditDiscussion_Form.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAADEAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAABMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-08T20:19:10.455Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-08T20:19:10.455Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CourseManager_Form.cs [Design]",
-              "DocumentMoniker": "D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\CourseManager_Form.cs",
-              "RelativeDocumentMoniker": "GUI_ManagementSystem\\CourseManager_Form.cs",
-              "ToolTip": "D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\CourseManager_Form.cs [Design]",
-              "RelativeToolTip": "GUI_ManagementSystem\\CourseManager_Form.cs [Design]",
+              "DocumentIndex": 23,
+              "Title": "AddEditDiscussion_Form.cs [Design]",
+              "DocumentMoniker": "D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\AddEditDiscussion_Form.cs",
+              "RelativeDocumentMoniker": "GUI_ManagementSystem\\AddEditDiscussion_Form.cs",
+              "ToolTip": "C:\\Users\\ALIEN\\Documents\\test\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\AddEditDiscussion_Form.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-09T05:56:34.346Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-04-08T19:56:59.621Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "AddEditCourse_Form.cs [Design]",
+              "DocumentMoniker": "D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\AddEditCourse_Form.cs",
+              "RelativeDocumentMoniker": "GUI_ManagementSystem\\AddEditCourse_Form.cs",
+              "ToolTip": "C:\\Users\\ALIEN\\Documents\\test\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\AddEditCourse_Form.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T05:41:52.849Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AddEditQuiz_Form.cs [Design]",
+              "DocumentMoniker": "D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\AddEditQuiz_Form.cs",
+              "RelativeDocumentMoniker": "GUI_ManagementSystem\\AddEditQuiz_Form.cs",
+              "ToolTip": "C:\\Users\\ALIEN\\Documents\\test\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\AddEditQuiz_Form.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T07:38:36.895Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AddEditQuiz_Form.cs",
+              "DocumentMoniker": "D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\AddEditQuiz_Form.cs",
+              "RelativeDocumentMoniker": "GUI_ManagementSystem\\AddEditQuiz_Form.cs",
+              "ToolTip": "D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\AddEditQuiz_Form.cs",
+              "RelativeToolTip": "GUI_ManagementSystem\\AddEditQuiz_Form.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAkwD4AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T07:39:41.571Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "AddEditAssignment_Form.cs",
+              "DocumentMoniker": "D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\AddEditAssignment_Form.cs",
+              "RelativeDocumentMoniker": "GUI_ManagementSystem\\AddEditAssignment_Form.cs",
+              "ToolTip": "D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\AddEditAssignment_Form.cs",
+              "RelativeToolTip": "GUI_ManagementSystem\\AddEditAssignment_Form.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAwwBEAAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T19:56:09.342Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "AddEditAssignment_Form.cs [Design]",
+              "DocumentMoniker": "D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\AddEditAssignment_Form.cs",
+              "RelativeDocumentMoniker": "GUI_ManagementSystem\\AddEditAssignment_Form.cs",
+              "ToolTip": "C:\\Users\\ALIEN\\Documents\\test\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\AddEditAssignment_Form.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T14:03:41.792Z"
             },
             {
               "$type": "Document",
@@ -440,110 +538,60 @@
               "RelativeDocumentMoniker": "GUI_ManagementSystem\\Main_Form.cs",
               "ToolTip": "D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\Main_Form.cs",
               "RelativeToolTip": "GUI_ManagementSystem\\Main_Form.cs",
-              "ViewState": "AQIAADYAAAAAAAAAAAA4wD0AAAAJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-08T14:05:40.763Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "AddEditQuiz_Form.cs",
-              "DocumentMoniker": "D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\AddEditQuiz_Form.cs",
-              "RelativeDocumentMoniker": "GUI_ManagementSystem\\AddEditQuiz_Form.cs",
-              "ToolTip": "D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\AddEditQuiz_Form.cs",
-              "RelativeToolTip": "GUI_ManagementSystem\\AddEditQuiz_Form.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAgwC8AAABXAAAA",
+              "DocumentIndex": 1,
+              "Title": "Main_Form.cs [Design]",
+              "DocumentMoniker": "D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\Main_Form.cs",
+              "RelativeDocumentMoniker": "GUI_ManagementSystem\\Main_Form.cs",
+              "ToolTip": "C:\\Users\\ALIEN\\Documents\\test\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\Main_Form.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-09T07:39:41.571Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-08T14:07:18.016Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "AddEditProject_Form.cs",
-              "DocumentMoniker": "D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\AddEditProject_Form.cs",
-              "RelativeDocumentMoniker": "GUI_ManagementSystem\\AddEditProject_Form.cs",
-              "ToolTip": "D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\AddEditProject_Form.cs",
-              "RelativeToolTip": "GUI_ManagementSystem\\AddEditProject_Form.cs",
-              "ViewState": "AQIAABcAAAAAAAAAAAAAADIAAAAxAAAA",
+              "DocumentIndex": 31,
+              "Title": "TaskManager.cs",
+              "DocumentMoniker": "D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\TaskManagementSystem\\TaskManager.cs",
+              "RelativeDocumentMoniker": "TaskManagementSystem\\TaskManager.cs",
+              "ToolTip": "D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\TaskManagementSystem\\TaskManager.cs",
+              "RelativeToolTip": "TaskManagementSystem\\TaskManager.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwCUAAABBAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-08T20:07:11.375Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-08T17:48:07.646Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "DeleteConfirmation_Form.cs [Design]",
-              "DocumentMoniker": "D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\DeleteConfirmation_Form.cs",
-              "RelativeDocumentMoniker": "GUI_ManagementSystem\\DeleteConfirmation_Form.cs",
-              "ToolTip": "D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\DeleteConfirmation_Form.cs [Design]",
-              "RelativeToolTip": "GUI_ManagementSystem\\DeleteConfirmation_Form.cs [Design]",
+              "DocumentIndex": 32,
+              "Title": "Task.cs",
+              "DocumentMoniker": "D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\TaskManagementSystem\\Task.cs",
+              "RelativeDocumentMoniker": "TaskManagementSystem\\Task.cs",
+              "ToolTip": "D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\TaskManagementSystem\\Task.cs",
+              "RelativeToolTip": "TaskManagementSystem\\Task.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAgwB4AAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-09T18:06:24.934Z"
+              "WhenOpened": "2024-04-08T17:47:57.082Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "DeleteConfirmation_Form.cs",
-              "DocumentMoniker": "D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\DeleteConfirmation_Form.cs",
-              "RelativeDocumentMoniker": "GUI_ManagementSystem\\DeleteConfirmation_Form.cs",
-              "ToolTip": "D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\DeleteConfirmation_Form.cs",
-              "RelativeToolTip": "GUI_ManagementSystem\\DeleteConfirmation_Form.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAYwCAAAAAAAAAA",
+              "DocumentIndex": 30,
+              "Title": "MyDay.cs",
+              "DocumentMoniker": "D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\TaskManagementSystem\\MyDay.cs",
+              "RelativeDocumentMoniker": "TaskManagementSystem\\MyDay.cs",
+              "ToolTip": "D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\TaskManagementSystem\\MyDay.cs",
+              "RelativeToolTip": "TaskManagementSystem\\MyDay.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAowDEAAABAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-09T18:06:26.346Z"
+              "WhenOpened": "2024-04-10T01:15:25.767Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "AddEditDiscussion_Form.cs [Design]",
-              "DocumentMoniker": "D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\AddEditDiscussion_Form.cs",
-              "RelativeDocumentMoniker": "GUI_ManagementSystem\\AddEditDiscussion_Form.cs",
-              "ToolTip": "D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\AddEditDiscussion_Form.cs [Design]",
-              "RelativeToolTip": "GUI_ManagementSystem\\AddEditDiscussion_Form.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-08T19:56:59.621Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "AddEditAssignment_Form.cs",
-              "DocumentMoniker": "D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\AddEditAssignment_Form.cs",
-              "RelativeDocumentMoniker": "GUI_ManagementSystem\\AddEditAssignment_Form.cs",
-              "ToolTip": "D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\AddEditAssignment_Form.cs",
-              "RelativeToolTip": "GUI_ManagementSystem\\AddEditAssignment_Form.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAmwDAAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-08T19:56:09.342Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "AddEditQuiz_Form.cs [Design]",
-              "DocumentMoniker": "D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\AddEditQuiz_Form.cs",
-              "RelativeDocumentMoniker": "GUI_ManagementSystem\\AddEditQuiz_Form.cs",
-              "ToolTip": "D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\AddEditQuiz_Form.cs [Design]",
-              "RelativeToolTip": "GUI_ManagementSystem\\AddEditQuiz_Form.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-09T07:38:36.895Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "AddEditAssignment_Form.cs [Design]",
-              "DocumentMoniker": "D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\AddEditAssignment_Form.cs",
-              "RelativeDocumentMoniker": "GUI_ManagementSystem\\AddEditAssignment_Form.cs",
-              "ToolTip": "D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\AddEditAssignment_Form.cs [Design]",
-              "RelativeToolTip": "GUI_ManagementSystem\\AddEditAssignment_Form.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-09T14:03:41.792Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 33,
               "Title": "Assignment.cs",
               "DocumentMoniker": "D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\TaskManagementSystem\\Assignment.cs",
               "RelativeDocumentMoniker": "TaskManagementSystem\\Assignment.cs",
@@ -555,7 +603,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 34,
               "Title": "AddEditCourse_Form.Designer.cs",
               "DocumentMoniker": "D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\AddEditCourse_Form.Designer.cs",
               "RelativeDocumentMoniker": "GUI_ManagementSystem\\AddEditCourse_Form.Designer.cs",
@@ -563,12 +611,11 @@
               "RelativeToolTip": "GUI_ManagementSystem\\AddEditCourse_Form.Designer.cs",
               "ViewState": "AQIAAHEAAAAAAAAAAAAYwIAAAAA/AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-08T23:31:18.265Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-08T23:31:18.265Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 35,
               "Title": "TaskManagementSystem_EvaluationTests.cs",
               "DocumentMoniker": "D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\TaskManagementSystem_Tests\\TaskManagementSystem_EvaluationTests.cs",
               "RelativeDocumentMoniker": "TaskManagementSystem_Tests\\TaskManagementSystem_EvaluationTests.cs",
@@ -580,7 +627,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 36,
               "Title": "TaskManagementSystem_CourseTests.cs",
               "DocumentMoniker": "D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\TaskManagementSystem_Tests\\TaskManagementSystem_CourseTests.cs",
               "RelativeDocumentMoniker": "TaskManagementSystem_Tests\\TaskManagementSystem_CourseTests.cs",
@@ -592,42 +639,18 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "ErrorBox_Form.cs",
-              "DocumentMoniker": "D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\ErrorBox_Form.cs",
-              "RelativeDocumentMoniker": "GUI_ManagementSystem\\ErrorBox_Form.cs",
-              "ToolTip": "D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\ErrorBox_Form.cs",
-              "RelativeToolTip": "GUI_ManagementSystem\\ErrorBox_Form.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAmwBMAAABRAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-08T19:49:22.67Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "ErrorBox_Form.cs [Design]",
-              "DocumentMoniker": "D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\ErrorBox_Form.cs",
-              "RelativeDocumentMoniker": "GUI_ManagementSystem\\ErrorBox_Form.cs",
-              "ToolTip": "D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\ErrorBox_Form.cs [Design]",
-              "RelativeToolTip": "GUI_ManagementSystem\\ErrorBox_Form.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-08T19:49:21.477Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 37,
               "Title": "TaskManager_Form.resx",
               "DocumentMoniker": "D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\TaskManager_Form.resx",
               "RelativeDocumentMoniker": "GUI_ManagementSystem\\TaskManager_Form.resx",
               "ToolTip": "D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\TaskManager_Form.resx",
               "RelativeToolTip": "GUI_ManagementSystem\\TaskManager_Form.resx",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2024-04-08T19:46:38.344Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-08T19:46:38.344Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 39,
               "Title": "EvaluationType.cs",
               "DocumentMoniker": "D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\TaskManagementSystem\\EvaluationType.cs",
               "RelativeDocumentMoniker": "TaskManagementSystem\\EvaluationType.cs",
@@ -639,7 +662,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 41,
               "Title": "TaskManagementSystem_TaskManagerTests.cs",
               "DocumentMoniker": "D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\TaskManagementSystem_Tests\\TaskManagementSystem_TaskManagerTests.cs",
               "RelativeDocumentMoniker": "TaskManagementSystem_Tests\\TaskManagementSystem_TaskManagerTests.cs",
@@ -651,7 +674,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 44,
               "Title": "TaskManagementSystem_CourseManagerTests.cs",
               "DocumentMoniker": "D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\TaskManagementSystem_Tests\\TaskManagementSystem_CourseManagerTests.cs",
               "RelativeDocumentMoniker": "TaskManagementSystem_Tests\\TaskManagementSystem_CourseManagerTests.cs",
@@ -663,7 +686,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 38,
               "Title": "TaskManager_Form.Designer.cs",
               "DocumentMoniker": "D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\TaskManager_Form.Designer.cs",
               "RelativeDocumentMoniker": "GUI_ManagementSystem\\TaskManager_Form.Designer.cs",
@@ -671,12 +694,11 @@
               "RelativeToolTip": "GUI_ManagementSystem\\TaskManager_Form.Designer.cs",
               "ViewState": "AQIAABYAAAAAAAAAAAAAABYAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-08T14:05:39.348Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-08T14:05:39.348Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 43,
               "Title": "TaskManagementSystem_MyDayTests.cs",
               "DocumentMoniker": "D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\TaskManagementSystem_Tests\\TaskManagementSystem_MyDayTests.cs",
               "RelativeDocumentMoniker": "TaskManagementSystem_Tests\\TaskManagementSystem_MyDayTests.cs",
@@ -688,7 +710,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 42,
               "Title": "TaskManagementSystem_QuizTests.cs",
               "DocumentMoniker": "D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\TaskManagementSystem_Tests\\TaskManagementSystem_QuizTests.cs",
               "RelativeDocumentMoniker": "TaskManagementSystem_Tests\\TaskManagementSystem_QuizTests.cs",
@@ -700,7 +722,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 40,
               "Title": "TaskManagementSystem_TaskTests.cs",
               "DocumentMoniker": "D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\TaskManagementSystem_Tests\\TaskManagementSystem_TaskTests.cs",
               "RelativeDocumentMoniker": "TaskManagementSystem_Tests\\TaskManagementSystem_TaskTests.cs",
@@ -712,7 +734,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 45,
               "Title": "TaskManagementSystem_AssignmentTests.cs",
               "DocumentMoniker": "D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\TaskManagementSystem_Tests\\TaskManagementSystem_AssignmentTests.cs",
               "RelativeDocumentMoniker": "TaskManagementSystem_Tests\\TaskManagementSystem_AssignmentTests.cs",
@@ -724,7 +746,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 46,
               "Title": "CourseManager.cs",
               "DocumentMoniker": "D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\TaskManagementSystem\\CourseManager.cs",
               "RelativeDocumentMoniker": "TaskManagementSystem\\CourseManager.cs",
@@ -736,7 +758,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 47,
               "Title": "ItemDeleted_Form.Designer.cs",
               "DocumentMoniker": "D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\ItemDeleted_Form.Designer.cs",
               "RelativeDocumentMoniker": "GUI_ManagementSystem\\ItemDeleted_Form.Designer.cs",
@@ -748,7 +770,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 48,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Centennial College\\LAB89\\LAB89\\Group9_KhoiP_301278135_A89\\GUI_ManagementSystem\\Program.cs",
               "RelativeDocumentMoniker": "GUI_ManagementSystem\\Program.cs",

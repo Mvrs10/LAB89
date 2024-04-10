@@ -18,13 +18,13 @@ namespace GUI_ManagementSystem
         List<Course> courses = CourseManager.Courses;
         Evaluation evaluation;
         TaskManagementSystem.Task task;
-        public AddEditTask_Form(TaskManagementSystem.Task task) //Maria, Minh
+        public AddEditTask_Form(TaskManagementSystem.Task task)
         {
             InitializeComponent();
             this.task = task;
         }
 
-        private void AddEditTask_Form_Load(object sender, EventArgs e) //Maria, Minh
+        private void AddEditTask_Form_Load(object sender, EventArgs e)
         {
             cbbx_Association.SelectedIndex = 0;
             if (task != null)
@@ -96,14 +96,17 @@ namespace GUI_ManagementSystem
                     lbl_NoEvaluation.Visible = true;
                     lsbx_Courses.Visible = false;
                     lsbx_Evaluations.Visible = false;
+                    lbl_Instruction.Visible = false;
                     break;
                 case 1:
                     lsbx_Courses.Visible = courses.Count !=0;
+                    lbl_NoCourse.Visible = courses.Count ==0;
+                    lbl_Instruction.Visible = false;
                     lsbx_Evaluations.Visible = false;
                     break;
                 case 2:
                     lsbx_Courses.Visible = courses.Count != 0;
-                    if(lbl_NoEvaluation.Visible==false)lsbx_Evaluations.Visible = true;
+                    lbl_Instruction.Visible = true;
                     break;
             }
         }
@@ -121,7 +124,8 @@ namespace GUI_ManagementSystem
         }
         private void updateEvaluationListBox()
         {
-            lsbx_Evaluations.Items.Clear();             
+            lsbx_Evaluations.Items.Clear();
+            lbl_Instruction.Visible = false;
             Course course = courses[lsbx_Courses.SelectedIndex];
             lbl_NoEvaluation.Visible = course.Evaluations.Count == 0;
             if (course.Evaluations.Count != 0)
@@ -130,11 +134,12 @@ namespace GUI_ManagementSystem
                 {
                     lsbx_Evaluations.Items.Add(evaluation);
                 }
+                if(cbbx_Association.SelectedIndex == 2) lsbx_Evaluations.Visible = true;
             }
         }
         private void lsbx_Courses_SelectedIndexChanged(object sender, EventArgs e)
         {
-            updateEvaluationListBox();
+            updateEvaluationListBox();            
         }
     }
 }
