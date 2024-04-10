@@ -47,7 +47,7 @@ namespace TaskManagementSystem
         // Action member #3
         public override string ToString()
         {
-            return $"All today's task:\n{String.Join("\n", todaysTasks)}";
+            return $"All today's task:\n\n- {String.Join("\n\n- ", todaysTasks)}";
         }
     }
 }

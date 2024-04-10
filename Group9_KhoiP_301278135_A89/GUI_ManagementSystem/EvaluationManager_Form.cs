@@ -27,7 +27,7 @@ namespace GUI_ManagementSystem
         private void btn_AddEvaluation_Click(object sender, EventArgs e) //Maria, Minh
         {
             Course course = courses[lsbx_Courses.SelectedIndex];
-            course = lsbx_Courses.SelectedItem as Course;
+            //course = lsbx_Courses.SelectedItem as Course;
             if (lsbx_Courses.SelectedIndex == -1 || cbbx_EvaluationType.SelectedIndex == 0 || course == null)
             {
                 lbl_instruction.Text = "Please select a course and an evaluation type";
@@ -72,7 +72,7 @@ namespace GUI_ManagementSystem
         private void btn_EditEval_Click(object sender, EventArgs e) //Maria, Minh
         {
             Course course = courses[lsbx_Courses.SelectedIndex];
-            course = lsbx_Courses.SelectedItem as Course;
+            //course = lsbx_Courses.SelectedItem as Course;
             Evaluation evaluation = lsbx_Evaluations.SelectedItem as Evaluation;
             if (course == null || evaluation == null) return;
             switch (evaluation.Type)
@@ -138,11 +138,11 @@ namespace GUI_ManagementSystem
             updateEvaluationListBox();
         }
 
-        private void lsbx_Courses_SelectedIndexChanged(object sender, EventArgs e) //aria, Minh
+        private void lsbx_Courses_SelectedIndexChanged(object sender, EventArgs e) //Maria, Minh
         {
             if (lsbx_Courses.SelectedIndex == -1) return;
             Course course = courses[lsbx_Courses.SelectedIndex];
-            course = (Course)lsbx_Courses.SelectedItem;
+            //course = (Course)lsbx_Courses.SelectedItem;
             updateEvaluationListBox();
             lbl_EvaluationList.Text = string.Empty;
             int i = 1;

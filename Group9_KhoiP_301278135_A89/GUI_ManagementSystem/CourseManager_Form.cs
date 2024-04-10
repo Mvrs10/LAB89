@@ -90,5 +90,35 @@ namespace GUI_ManagementSystem
             btn_EditCourse.Visible = lsbx_Courses.SelectedIndex != -1;
             btn_DeleteCourse.Visible = lsbx_Courses.SelectedIndex != -1;
         }
+
+        private void btn_Export_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                string path = "CourseManager.json";
+                courseManager.Save(path);
+                MessageBox.Show("Successfully saved", "All courses", MessageBoxButtons.OK, MessageBoxIcon.None);
+            }
+            catch { throw; }
+        }
+
+        private void btn_Import_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                string path = "CourseManager.json";
+                courseManager.Load(path);
+                MessageBox.Show("Successfully loaded", "All courses", MessageBoxButtons.OK, MessageBoxIcon.None);
+            }
+            catch { throw; }
+            finally
+            {
+                //updateCourseListBox();
+                //Refresh();
+                CourseManager_Form courseManager_Form = new CourseManager_Form();
+                courseManager_Form.ShowDialog();
+                Close();
+            }
+        }
     }
 }

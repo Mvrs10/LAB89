@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CourseManager_Form));
-            this.btn_ExportCourse = new System.Windows.Forms.Button();
-            this.btn_ImportCourse = new System.Windows.Forms.Button();
+            this.btn_Export = new System.Windows.Forms.Button();
+            this.btn_Import = new System.Windows.Forms.Button();
             this.lbl_CourseDetails = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.btn_DeleteCourse = new System.Windows.Forms.Button();
@@ -43,29 +43,31 @@
             this.btn_GoMain = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // btn_ExportCourse
+            // btn_Export
             // 
-            this.btn_ExportCourse.BackColor = System.Drawing.Color.Wheat;
-            this.btn_ExportCourse.Font = new System.Drawing.Font("PMingLiU-ExtB", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_ExportCourse.Location = new System.Drawing.Point(226, 518);
-            this.btn_ExportCourse.Margin = new System.Windows.Forms.Padding(2);
-            this.btn_ExportCourse.Name = "btn_ExportCourse";
-            this.btn_ExportCourse.Size = new System.Drawing.Size(140, 37);
-            this.btn_ExportCourse.TabIndex = 26;
-            this.btn_ExportCourse.Text = "Export Course";
-            this.btn_ExportCourse.UseVisualStyleBackColor = false;
+            this.btn_Export.BackColor = System.Drawing.Color.Wheat;
+            this.btn_Export.Font = new System.Drawing.Font("PMingLiU-ExtB", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Export.Location = new System.Drawing.Point(135, 467);
+            this.btn_Export.Margin = new System.Windows.Forms.Padding(2);
+            this.btn_Export.Name = "btn_Export";
+            this.btn_Export.Size = new System.Drawing.Size(140, 37);
+            this.btn_Export.TabIndex = 26;
+            this.btn_Export.Text = "Export Courses";
+            this.btn_Export.UseVisualStyleBackColor = false;
+            this.btn_Export.Click += new System.EventHandler(this.btn_Export_Click);
             // 
-            // btn_ImportCourse
+            // btn_Import
             // 
-            this.btn_ImportCourse.BackColor = System.Drawing.Color.Wheat;
-            this.btn_ImportCourse.Font = new System.Drawing.Font("PMingLiU-ExtB", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_ImportCourse.Location = new System.Drawing.Point(406, 518);
-            this.btn_ImportCourse.Margin = new System.Windows.Forms.Padding(2);
-            this.btn_ImportCourse.Name = "btn_ImportCourse";
-            this.btn_ImportCourse.Size = new System.Drawing.Size(140, 37);
-            this.btn_ImportCourse.TabIndex = 25;
-            this.btn_ImportCourse.Text = "Import Course";
-            this.btn_ImportCourse.UseVisualStyleBackColor = false;
+            this.btn_Import.BackColor = System.Drawing.Color.Wheat;
+            this.btn_Import.Font = new System.Drawing.Font("PMingLiU-ExtB", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Import.Location = new System.Drawing.Point(315, 467);
+            this.btn_Import.Margin = new System.Windows.Forms.Padding(2);
+            this.btn_Import.Name = "btn_Import";
+            this.btn_Import.Size = new System.Drawing.Size(140, 37);
+            this.btn_Import.TabIndex = 25;
+            this.btn_Import.Text = "Import Courses";
+            this.btn_Import.UseVisualStyleBackColor = false;
+            this.btn_Import.Click += new System.EventHandler(this.btn_Import_Click);
             // 
             // lbl_CourseDetails
             // 
@@ -161,12 +163,12 @@
             this.label2.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label2.Font = new System.Drawing.Font("PMingLiU-ExtB", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.DarkOliveGreen;
-            this.label2.Location = new System.Drawing.Point(222, 204);
+            this.label2.Location = new System.Drawing.Point(192, 204);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(126, 24);
+            this.label2.Size = new System.Drawing.Size(192, 24);
             this.label2.TabIndex = 17;
-            this.label2.Text = "Course List";
+            this.label2.Text = "Available Courses";
             // 
             // label1
             // 
@@ -200,8 +202,8 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(590, 592);
             this.Controls.Add(this.btn_GoMain);
-            this.Controls.Add(this.btn_ExportCourse);
-            this.Controls.Add(this.btn_ImportCourse);
+            this.Controls.Add(this.btn_Export);
+            this.Controls.Add(this.btn_Import);
             this.Controls.Add(this.lbl_CourseDetails);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.btn_DeleteCourse);
@@ -223,8 +225,8 @@
         }
 
         #endregion
-        private System.Windows.Forms.Button btn_ExportCourse;
-        private System.Windows.Forms.Button btn_ImportCourse;
+        private System.Windows.Forms.Button btn_Export;
+        private System.Windows.Forms.Button btn_Import;
         private System.Windows.Forms.Label lbl_CourseDetails;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button btn_DeleteCourse;

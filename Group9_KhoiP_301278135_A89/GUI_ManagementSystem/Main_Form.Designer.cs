@@ -36,6 +36,7 @@
             this.btn_ManageEvals = new System.Windows.Forms.Button();
             this.btn_ManageTasks = new System.Windows.Forms.Button();
             this.btn_ViewMyDay = new System.Windows.Forms.Button();
+            this.btn_Exit = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -79,7 +80,7 @@
             this.btn_ManageCourses.BackColor = System.Drawing.Color.DarkKhaki;
             this.btn_ManageCourses.Font = new System.Drawing.Font("PMingLiU-ExtB", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_ManageCourses.Location = new System.Drawing.Point(155, 163);
-            this.btn_ManageCourses.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_ManageCourses.Margin = new System.Windows.Forms.Padding(2);
             this.btn_ManageCourses.Name = "btn_ManageCourses";
             this.btn_ManageCourses.Size = new System.Drawing.Size(152, 56);
             this.btn_ManageCourses.TabIndex = 4;
@@ -91,7 +92,7 @@
             this.btn_ManageEvals.BackColor = System.Drawing.Color.DarkKhaki;
             this.btn_ManageEvals.Font = new System.Drawing.Font("PMingLiU-ExtB", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_ManageEvals.Location = new System.Drawing.Point(155, 224);
-            this.btn_ManageEvals.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_ManageEvals.Margin = new System.Windows.Forms.Padding(2);
             this.btn_ManageEvals.Name = "btn_ManageEvals";
             this.btn_ManageEvals.Size = new System.Drawing.Size(152, 56);
             this.btn_ManageEvals.TabIndex = 5;
@@ -103,7 +104,7 @@
             this.btn_ManageTasks.BackColor = System.Drawing.Color.DarkKhaki;
             this.btn_ManageTasks.Font = new System.Drawing.Font("PMingLiU-ExtB", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_ManageTasks.Location = new System.Drawing.Point(155, 288);
-            this.btn_ManageTasks.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_ManageTasks.Margin = new System.Windows.Forms.Padding(2);
             this.btn_ManageTasks.Name = "btn_ManageTasks";
             this.btn_ManageTasks.Size = new System.Drawing.Size(152, 56);
             this.btn_ManageTasks.TabIndex = 6;
@@ -115,12 +116,25 @@
             this.btn_ViewMyDay.BackColor = System.Drawing.Color.Khaki;
             this.btn_ViewMyDay.Font = new System.Drawing.Font("PMingLiU-ExtB", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_ViewMyDay.Location = new System.Drawing.Point(393, 210);
-            this.btn_ViewMyDay.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_ViewMyDay.Margin = new System.Windows.Forms.Padding(2);
             this.btn_ViewMyDay.Name = "btn_ViewMyDay";
             this.btn_ViewMyDay.Size = new System.Drawing.Size(126, 83);
             this.btn_ViewMyDay.TabIndex = 7;
             this.btn_ViewMyDay.Text = "View My Day Details";
             this.btn_ViewMyDay.UseVisualStyleBackColor = false;
+            // 
+            // btn_Exit
+            // 
+            this.btn_Exit.BackColor = System.Drawing.Color.Khaki;
+            this.btn_Exit.Font = new System.Drawing.Font("Cascadia Mono", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Exit.Location = new System.Drawing.Point(494, 378);
+            this.btn_Exit.Margin = new System.Windows.Forms.Padding(2);
+            this.btn_Exit.Name = "btn_Exit";
+            this.btn_Exit.Size = new System.Drawing.Size(120, 42);
+            this.btn_Exit.TabIndex = 8;
+            this.btn_Exit.Text = "Exit";
+            this.btn_Exit.UseVisualStyleBackColor = false;
+            this.btn_Exit.Click += new System.EventHandler(this.btn_Exit_Click);
             // 
             // Main_Form
             // 
@@ -129,6 +143,7 @@
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(625, 431);
+            this.Controls.Add(this.btn_Exit);
             this.Controls.Add(this.btn_ViewMyDay);
             this.Controls.Add(this.btn_ManageTasks);
             this.Controls.Add(this.btn_ManageEvals);
@@ -137,7 +152,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Main_Form";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -157,6 +172,7 @@
         private System.Windows.Forms.Button btn_ManageEvals;
         private System.Windows.Forms.Button btn_ManageTasks;
         private System.Windows.Forms.Button btn_ViewMyDay;
+        private System.Windows.Forms.Button btn_Exit;
     }
 }
 

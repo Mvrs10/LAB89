@@ -29,42 +29,51 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AddEditTask_Form));
-            this.btn_CancelTask = new System.Windows.Forms.Button();
-            this.btn_OkTask = new System.Windows.Forms.Button();
+            this.btn_Cancel = new System.Windows.Forms.Button();
+            this.btn_Ok = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.txb_DescriptionTask = new System.Windows.Forms.TextBox();
-            this.txb_DueDateTask = new System.Windows.Forms.TextBox();
-            this.chckBox_CompletedTask = new System.Windows.Forms.CheckBox();
-            this.chckBox_NoCompletedTask = new System.Windows.Forms.CheckBox();
+            this.txb_Description = new System.Windows.Forms.TextBox();
+            this.ckbx_Completed = new System.Windows.Forms.CheckBox();
+            this.cbbx_Association = new System.Windows.Forms.ComboBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.lsbx_Courses = new System.Windows.Forms.ListBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.lsbx_Evaluations = new System.Windows.Forms.ListBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.lbl_NoCourse = new System.Windows.Forms.Label();
+            this.lbl_NoEvaluation = new System.Windows.Forms.Label();
+            this.dtp_DueDate = new System.Windows.Forms.DateTimePicker();
             this.SuspendLayout();
             // 
-            // btn_CancelTask
+            // btn_Cancel
             // 
-            this.btn_CancelTask.BackColor = System.Drawing.Color.DarkKhaki;
-            this.btn_CancelTask.Font = new System.Drawing.Font("PMingLiU-ExtB", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_CancelTask.Location = new System.Drawing.Point(347, 231);
-            this.btn_CancelTask.Margin = new System.Windows.Forms.Padding(2);
-            this.btn_CancelTask.Name = "btn_CancelTask";
-            this.btn_CancelTask.Size = new System.Drawing.Size(86, 30);
-            this.btn_CancelTask.TabIndex = 12;
-            this.btn_CancelTask.Text = "Cancel";
-            this.btn_CancelTask.UseVisualStyleBackColor = false;
+            this.btn_Cancel.BackColor = System.Drawing.Color.DarkKhaki;
+            this.btn_Cancel.Font = new System.Drawing.Font("PMingLiU-ExtB", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Cancel.Location = new System.Drawing.Point(137, 269);
+            this.btn_Cancel.Margin = new System.Windows.Forms.Padding(2);
+            this.btn_Cancel.Name = "btn_Cancel";
+            this.btn_Cancel.Size = new System.Drawing.Size(86, 30);
+            this.btn_Cancel.TabIndex = 12;
+            this.btn_Cancel.Text = "Cancel";
+            this.btn_Cancel.UseVisualStyleBackColor = false;
+            this.btn_Cancel.Click += new System.EventHandler(this.btn_Cancel_Click);
             // 
-            // btn_OkTask
+            // btn_Ok
             // 
-            this.btn_OkTask.BackColor = System.Drawing.Color.DarkKhaki;
-            this.btn_OkTask.CausesValidation = false;
-            this.btn_OkTask.Font = new System.Drawing.Font("PMingLiU-ExtB", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_OkTask.Location = new System.Drawing.Point(242, 231);
-            this.btn_OkTask.Margin = new System.Windows.Forms.Padding(2);
-            this.btn_OkTask.Name = "btn_OkTask";
-            this.btn_OkTask.Size = new System.Drawing.Size(86, 30);
-            this.btn_OkTask.TabIndex = 11;
-            this.btn_OkTask.Text = "Ok";
-            this.btn_OkTask.UseVisualStyleBackColor = false;
+            this.btn_Ok.BackColor = System.Drawing.Color.DarkKhaki;
+            this.btn_Ok.CausesValidation = false;
+            this.btn_Ok.Font = new System.Drawing.Font("PMingLiU-ExtB", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Ok.Location = new System.Drawing.Point(32, 269);
+            this.btn_Ok.Margin = new System.Windows.Forms.Padding(2);
+            this.btn_Ok.Name = "btn_Ok";
+            this.btn_Ok.Size = new System.Drawing.Size(86, 30);
+            this.btn_Ok.TabIndex = 11;
+            this.btn_Ok.Text = "Ok";
+            this.btn_Ok.UseVisualStyleBackColor = false;
+            this.btn_Ok.Click += new System.EventHandler(this.btn_Ok_Click);
             // 
             // label1
             // 
@@ -85,7 +94,7 @@
             this.label2.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label2.Font = new System.Drawing.Font("PMingLiU-ExtB", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label2.Location = new System.Drawing.Point(22, 125);
+            this.label2.Location = new System.Drawing.Point(23, 162);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(95, 16);
@@ -98,7 +107,7 @@
             this.label3.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label3.Font = new System.Drawing.Font("PMingLiU-ExtB", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label3.Location = new System.Drawing.Point(38, 155);
+            this.label3.Location = new System.Drawing.Point(39, 192);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(79, 16);
@@ -111,77 +120,172 @@
             this.label4.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label4.Font = new System.Drawing.Font("PMingLiU-ExtB", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label4.Location = new System.Drawing.Point(32, 190);
+            this.label4.Location = new System.Drawing.Point(33, 227);
             this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(89, 16);
             this.label4.TabIndex = 16;
             this.label4.Text = "Completed:";
             // 
-            // txb_DescriptionTask
+            // txb_Description
             // 
-            this.txb_DescriptionTask.Font = new System.Drawing.Font("PMingLiU-ExtB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txb_DescriptionTask.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.txb_DescriptionTask.Location = new System.Drawing.Point(121, 122);
-            this.txb_DescriptionTask.Margin = new System.Windows.Forms.Padding(2);
-            this.txb_DescriptionTask.Name = "txb_DescriptionTask";
-            this.txb_DescriptionTask.Size = new System.Drawing.Size(231, 27);
-            this.txb_DescriptionTask.TabIndex = 17;
+            this.txb_Description.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txb_Description.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.txb_Description.Location = new System.Drawing.Point(122, 159);
+            this.txb_Description.Margin = new System.Windows.Forms.Padding(2);
+            this.txb_Description.Name = "txb_Description";
+            this.txb_Description.Size = new System.Drawing.Size(231, 26);
+            this.txb_Description.TabIndex = 17;
             // 
-            // txb_DueDateTask
+            // ckbx_Completed
             // 
-            this.txb_DueDateTask.Font = new System.Drawing.Font("PMingLiU-ExtB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txb_DueDateTask.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.txb_DueDateTask.Location = new System.Drawing.Point(121, 155);
-            this.txb_DueDateTask.Margin = new System.Windows.Forms.Padding(2);
-            this.txb_DueDateTask.Name = "txb_DueDateTask";
-            this.txb_DueDateTask.Size = new System.Drawing.Size(231, 27);
-            this.txb_DueDateTask.TabIndex = 18;
+            this.ckbx_Completed.AutoSize = true;
+            this.ckbx_Completed.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.ckbx_Completed.Font = new System.Drawing.Font("PMingLiU-ExtB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ckbx_Completed.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.ckbx_Completed.Location = new System.Drawing.Point(122, 227);
+            this.ckbx_Completed.Margin = new System.Windows.Forms.Padding(2);
+            this.ckbx_Completed.Name = "ckbx_Completed";
+            this.ckbx_Completed.Size = new System.Drawing.Size(50, 20);
+            this.ckbx_Completed.TabIndex = 21;
+            this.ckbx_Completed.Text = "Yes";
+            this.ckbx_Completed.UseVisualStyleBackColor = false;
             // 
-            // chckBox_CompletedTask
+            // cbbx_Association
             // 
-            this.chckBox_CompletedTask.AutoSize = true;
-            this.chckBox_CompletedTask.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.chckBox_CompletedTask.Font = new System.Drawing.Font("PMingLiU-ExtB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chckBox_CompletedTask.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.chckBox_CompletedTask.Location = new System.Drawing.Point(121, 190);
-            this.chckBox_CompletedTask.Margin = new System.Windows.Forms.Padding(2);
-            this.chckBox_CompletedTask.Name = "chckBox_CompletedTask";
-            this.chckBox_CompletedTask.Size = new System.Drawing.Size(50, 20);
-            this.chckBox_CompletedTask.TabIndex = 21;
-            this.chckBox_CompletedTask.Text = "Yes";
-            this.chckBox_CompletedTask.UseVisualStyleBackColor = false;
+            this.cbbx_Association.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbbx_Association.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbbx_Association.FormattingEnabled = true;
+            this.cbbx_Association.Items.AddRange(new object[] {
+            "Choose an association",
+            "Course",
+            "Evaluation"});
+            this.cbbx_Association.Location = new System.Drawing.Point(122, 127);
+            this.cbbx_Association.Name = "cbbx_Association";
+            this.cbbx_Association.Size = new System.Drawing.Size(164, 24);
+            this.cbbx_Association.TabIndex = 35;
+            this.cbbx_Association.SelectedIndexChanged += new System.EventHandler(this.cbbx_Association_SelectedIndexChanged);
             // 
-            // chckBox_NoCompletedTask
+            // label5
             // 
-            this.chckBox_NoCompletedTask.AutoSize = true;
-            this.chckBox_NoCompletedTask.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.chckBox_NoCompletedTask.Font = new System.Drawing.Font("PMingLiU-ExtB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chckBox_NoCompletedTask.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.chckBox_NoCompletedTask.Location = new System.Drawing.Point(176, 190);
-            this.chckBox_NoCompletedTask.Margin = new System.Windows.Forms.Padding(2);
-            this.chckBox_NoCompletedTask.Name = "chckBox_NoCompletedTask";
-            this.chckBox_NoCompletedTask.Size = new System.Drawing.Size(45, 20);
-            this.chckBox_NoCompletedTask.TabIndex = 22;
-            this.chckBox_NoCompletedTask.Text = "No";
-            this.chckBox_NoCompletedTask.UseVisualStyleBackColor = false;
+            this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label5.Font = new System.Drawing.Font("PMingLiU-ExtB", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label5.Location = new System.Drawing.Point(23, 132);
+            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(96, 16);
+            this.label5.TabIndex = 36;
+            this.label5.Text = "Association:";
+            // 
+            // lsbx_Courses
+            // 
+            this.lsbx_Courses.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lsbx_Courses.FormattingEnabled = true;
+            this.lsbx_Courses.ItemHeight = 17;
+            this.lsbx_Courses.Location = new System.Drawing.Point(390, 140);
+            this.lsbx_Courses.Margin = new System.Windows.Forms.Padding(2);
+            this.lsbx_Courses.Name = "lsbx_Courses";
+            this.lsbx_Courses.Size = new System.Drawing.Size(165, 89);
+            this.lsbx_Courses.TabIndex = 38;
+            this.lsbx_Courses.Visible = false;
+            this.lsbx_Courses.SelectedIndexChanged += new System.EventHandler(this.lsbx_Courses_SelectedIndexChanged);
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label6.Font = new System.Drawing.Font("PMingLiU-ExtB", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.DarkOliveGreen;
+            this.label6.Location = new System.Drawing.Point(380, 103);
+            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(187, 24);
+            this.label6.TabIndex = 37;
+            this.label6.Text = "Available courses";
+            // 
+            // lsbx_Evaluations
+            // 
+            this.lsbx_Evaluations.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lsbx_Evaluations.FormattingEnabled = true;
+            this.lsbx_Evaluations.ItemHeight = 17;
+            this.lsbx_Evaluations.Location = new System.Drawing.Point(608, 140);
+            this.lsbx_Evaluations.Margin = new System.Windows.Forms.Padding(2);
+            this.lsbx_Evaluations.Name = "lsbx_Evaluations";
+            this.lsbx_Evaluations.Size = new System.Drawing.Size(313, 89);
+            this.lsbx_Evaluations.TabIndex = 40;
+            this.lsbx_Evaluations.Visible = false;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label7.Font = new System.Drawing.Font("PMingLiU-ExtB", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.Color.DarkOliveGreen;
+            this.label7.Location = new System.Drawing.Point(654, 103);
+            this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(228, 24);
+            this.label7.TabIndex = 39;
+            this.label7.Text = "Available Evaluations";
+            // 
+            // lbl_NoCourse
+            // 
+            this.lbl_NoCourse.AutoSize = true;
+            this.lbl_NoCourse.BackColor = System.Drawing.SystemColors.Window;
+            this.lbl_NoCourse.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_NoCourse.Location = new System.Drawing.Point(409, 146);
+            this.lbl_NoCourse.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lbl_NoCourse.Name = "lbl_NoCourse";
+            this.lbl_NoCourse.Size = new System.Drawing.Size(124, 17);
+            this.lbl_NoCourse.TabIndex = 41;
+            this.lbl_NoCourse.Text = "No available course";
+            this.lbl_NoCourse.Visible = false;
+            // 
+            // lbl_NoEvaluation
+            // 
+            this.lbl_NoEvaluation.AutoSize = true;
+            this.lbl_NoEvaluation.BackColor = System.Drawing.SystemColors.Window;
+            this.lbl_NoEvaluation.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_NoEvaluation.Location = new System.Drawing.Point(690, 146);
+            this.lbl_NoEvaluation.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lbl_NoEvaluation.Name = "lbl_NoEvaluation";
+            this.lbl_NoEvaluation.Size = new System.Drawing.Size(144, 17);
+            this.lbl_NoEvaluation.TabIndex = 42;
+            this.lbl_NoEvaluation.Text = "No available evaluation";
+            this.lbl_NoEvaluation.Visible = false;
+            // 
+            // dtp_DueDate
+            // 
+            this.dtp_DueDate.Location = new System.Drawing.Point(122, 192);
+            this.dtp_DueDate.Name = "dtp_DueDate";
+            this.dtp_DueDate.Size = new System.Drawing.Size(202, 20);
+            this.dtp_DueDate.TabIndex = 87;
             // 
             // AddEditTask_Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(476, 285);
-            this.Controls.Add(this.chckBox_NoCompletedTask);
-            this.Controls.Add(this.chckBox_CompletedTask);
-            this.Controls.Add(this.txb_DueDateTask);
-            this.Controls.Add(this.txb_DescriptionTask);
+            this.ClientSize = new System.Drawing.Size(1033, 331);
+            this.Controls.Add(this.dtp_DueDate);
+            this.Controls.Add(this.lbl_NoEvaluation);
+            this.Controls.Add(this.lbl_NoCourse);
+            this.Controls.Add(this.lsbx_Evaluations);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.lsbx_Courses);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.cbbx_Association);
+            this.Controls.Add(this.ckbx_Completed);
+            this.Controls.Add(this.txb_Description);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.btn_CancelTask);
-            this.Controls.Add(this.btn_OkTask);
+            this.Controls.Add(this.btn_Cancel);
+            this.Controls.Add(this.btn_Ok);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "AddEditTask_Form";
@@ -195,15 +299,22 @@
 
         #endregion
 
-        private System.Windows.Forms.Button btn_CancelTask;
-        private System.Windows.Forms.Button btn_OkTask;
+        private System.Windows.Forms.Button btn_Cancel;
+        private System.Windows.Forms.Button btn_Ok;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox txb_DescriptionTask;
-        private System.Windows.Forms.TextBox txb_DueDateTask;
-        private System.Windows.Forms.CheckBox chckBox_CompletedTask;
-        private System.Windows.Forms.CheckBox chckBox_NoCompletedTask;
+        private System.Windows.Forms.TextBox txb_Description;
+        private System.Windows.Forms.CheckBox ckbx_Completed;
+        private System.Windows.Forms.ComboBox cbbx_Association;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.ListBox lsbx_Courses;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.ListBox lsbx_Evaluations;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label lbl_NoCourse;
+        private System.Windows.Forms.Label lbl_NoEvaluation;
+        private System.Windows.Forms.DateTimePicker dtp_DueDate;
     }
 }

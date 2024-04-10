@@ -28,7 +28,7 @@ namespace TaskManagementSystem
         // Action member #1
         public override string ToString()
         {
-            string toString = $"Task description: {Description}";
+            string toString = $"{Description}";
             if (IsDone == false && DueDate == DateTime.MinValue)
             {
                 return $"{toString}, No Due Date, Not Done";

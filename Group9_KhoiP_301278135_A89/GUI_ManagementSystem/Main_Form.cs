@@ -47,7 +47,7 @@ namespace GUI_ManagementSystem
 
         private void Btn_ViewMyDay_Click(object sender, EventArgs e) //Maria, Minh
         {
-            MyDay_Form myDayForm = new MyDay_Form();
+            MyDay_Form myDayForm = new MyDay_Form(MyDay.NewDay());
             myDayForm.Show();
             this.Hide();
             myDayForm.FormClosed += ShowThis;
@@ -59,6 +59,10 @@ namespace GUI_ManagementSystem
         private void Main_Form_Load(object sender, EventArgs e) //Maria
         {
 
+        }
+        private void btn_Exit_Click(object sender, EventArgs e)
+        {
+            Close();
         }
     }
 }

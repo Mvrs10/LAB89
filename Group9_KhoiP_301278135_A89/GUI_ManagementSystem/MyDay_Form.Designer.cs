@@ -32,7 +32,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.lbl_MyDayDetails = new System.Windows.Forms.Label();
+            this.lbl_Tasks = new System.Windows.Forms.Label();
             this.btn_GoMain = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -48,7 +48,6 @@
             this.label3.TabIndex = 29;
             this.label3.Text = "Organize your daily work more effectively, \r\nensuring that important tasks will b" +
     "e completed on time.";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // label2
             // 
@@ -56,7 +55,7 @@
             this.label2.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label2.Font = new System.Drawing.Font("PMingLiU-ExtB", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.DarkOliveGreen;
-            this.label2.Location = new System.Drawing.Point(140, 221);
+            this.label2.Location = new System.Drawing.Point(199, 189);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(171, 24);
@@ -76,24 +75,22 @@
             this.label1.TabIndex = 27;
             this.label1.Text = "View My Day";
             // 
-            // lbl_MyDayDetails
+            // lbl_Tasks
             // 
-            this.lbl_MyDayDetails.AutoSize = true;
-            this.lbl_MyDayDetails.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.lbl_MyDayDetails.Font = new System.Drawing.Font("PMingLiU-ExtB", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_MyDayDetails.Location = new System.Drawing.Point(141, 266);
-            this.lbl_MyDayDetails.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.lbl_MyDayDetails.Name = "lbl_MyDayDetails";
-            this.lbl_MyDayDetails.Size = new System.Drawing.Size(105, 45);
-            this.lbl_MyDayDetails.TabIndex = 31;
-            this.lbl_MyDayDetails.Text = "**THIS IS \r\nAN INVISIBLE \r\nLABEL**";
-            this.lbl_MyDayDetails.Visible = false;
+            this.lbl_Tasks.AutoSize = true;
+            this.lbl_Tasks.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lbl_Tasks.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_Tasks.Location = new System.Drawing.Point(153, 233);
+            this.lbl_Tasks.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lbl_Tasks.Name = "lbl_Tasks";
+            this.lbl_Tasks.Size = new System.Drawing.Size(0, 19);
+            this.lbl_Tasks.TabIndex = 31;
             // 
             // btn_GoMain
             // 
             this.btn_GoMain.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_GoMain.BackgroundImage")));
             this.btn_GoMain.Location = new System.Drawing.Point(25, 453);
-            this.btn_GoMain.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_GoMain.Margin = new System.Windows.Forms.Padding(2);
             this.btn_GoMain.Name = "btn_GoMain";
             this.btn_GoMain.Size = new System.Drawing.Size(56, 51);
             this.btn_GoMain.TabIndex = 32;
@@ -105,14 +102,14 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(551, 514);
+            this.ClientSize = new System.Drawing.Size(572, 514);
             this.Controls.Add(this.btn_GoMain);
-            this.Controls.Add(this.lbl_MyDayDetails);
+            this.Controls.Add(this.lbl_Tasks);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "MyDay_Form";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Today\'s Tasks";
@@ -126,7 +123,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label lbl_MyDayDetails;
+        private System.Windows.Forms.Label lbl_Tasks;
         private System.Windows.Forms.Button btn_GoMain;
     }
 }

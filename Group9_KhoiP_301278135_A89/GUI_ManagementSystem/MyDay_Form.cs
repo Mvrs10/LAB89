@@ -7,28 +7,31 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using TaskManagementSystem;
 
 namespace GUI_ManagementSystem
 {
     public partial class MyDay_Form : Form
     {
-        public MyDay_Form() //Maria, Minh
+        MyDay myDay;
+        public MyDay_Form(MyDay myDay) //Maria, Minh
         {
             InitializeComponent();
-            //btn_GoMain.Click += Btn_GoMain_Click;
+            this.myDay = myDay;
         }
         private void Btn_GoMain_Click(object sender, EventArgs e) //Maria, Minh
         {
             Close();
         }
-
-        private void label3_Click(object sender, EventArgs e) //Maria, Minh
-        {
-
-        }
-
         private void MyDay_Form_Load(object sender, EventArgs e) //Maria, Minh
         {
+            updateListOfTasks();
+        }
+
+        private void updateListOfTasks()
+        {
+
+                lbl_Tasks.Text = myDay.ToString();
 
         }
     }

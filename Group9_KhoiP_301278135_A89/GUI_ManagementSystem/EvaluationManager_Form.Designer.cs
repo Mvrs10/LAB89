@@ -178,12 +178,12 @@
             this.label5.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label5.Font = new System.Drawing.Font("PMingLiU-ExtB", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.DarkOliveGreen;
-            this.label5.Location = new System.Drawing.Point(215, 379);
+            this.label5.Location = new System.Drawing.Point(184, 380);
             this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(162, 24);
+            this.label5.Size = new System.Drawing.Size(228, 24);
             this.label5.TabIndex = 31;
-            this.label5.Text = "Evaluation List";
+            this.label5.Text = "Available Evaluations";
             // 
             // lsbx_Evaluations
             // 
