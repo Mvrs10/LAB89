@@ -6,7 +6,7 @@
 <h2>Description</h2>
 Project is a Windows Form Application that has 4 sections and various functionalities:
 <ul>
- <li>Course Manager: Create course, change course details, import/export course list</li>
+ <li>Course Manager: Create course, modify course details, import/export course list</li>
  <li>Evaluation Manager: Add evaluations associated with the courses, change evaluation details, throw errors</li>
  <li>Task Manager: Create task for a specific evaluation or course, display, add to MyDay section, import/export Task List</li>
  <li>My Day: A list of users' chosen tasks based on the data in the application</li>
