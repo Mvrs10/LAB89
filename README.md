@@ -20,7 +20,7 @@ Project is a Windows Form Application that has 4 sections and various functional
 
 <h2>IDE Used </h2>
 
-- <b>Visual Studio 2022</b> (21H2)
+- <b>Visual Studio 2022</b>
 
 <h2>Program walk-through:</h2>
 
