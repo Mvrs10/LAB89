@@ -1,7 +1,7 @@
 <h1>Task Management System</h1>
 
  ### 🏫 [Demo Image](https://imgur.com/fMYMPKe)
- ### 🏫 [Demo Video](https://imgur.com/fMYMPKe)
+ ### 🏫 [Demo Video](https://drive.google.com/file/d/1xDMjFFEhe7DWG-b0-r05gpAql1-kkXXa/view?usp=sharing)
 
 <h2>Description</h2>
 Project is a Windows Form Application that has 4 sections and various functionalities:
@@ -25,30 +25,33 @@ Project is a Windows Form Application that has 4 sections and various functional
 <h2>Program walk-through:</h2>
 
 <p align="center">
-Launch the utility: <br/>
-<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Add a course: <br/>
+<img src="https://i.imgur.com/Pk8DIpl.png" height="80%" width="80%" alt="Task Management System"/>
+<img src="https://i.imgur.com/0v7DmZj.png" height="80%" width="80%" alt="Task Management System"/>
 <br />
 <br />
-Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Modify/Delete a coursre/Save/Load course list:  <br/>
+<img src="https://i.imgur.com/LnHguS6.png" height="80%" width="80%" alt="Task Management System"/>
 <br />
 <br />
-Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Add an evaluation: <br/>
+<img src="https://i.imgur.com/HyP6jzS.png" height="80%" width="80%" alt="Task Management System"/>
+<img src="https://i.imgur.com/dwX0wcq.png" height="80%" width="80%" alt="Task Management System"/>
 <br />
 <br />
-Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Modify/Delete an evaluation:  <br/>
+<img src="https://i.imgur.com/k52U6lm.png" height="80%" width="80%" alt="Task Management System"/>
 <br />
 <br />
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Add an associated task:  <br/>
+<img src="https://i.imgur.com/DAC4G9x.png" height="80%" width="80%" alt="Task Management System"/>
+<img src="https://i.imgur.com/UQixpPQ.png" height="80%" width="80%" alt="Task Management System"/>
 <br />
 <br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Modify/Delete a task/Save/Load task list:  <br/>
+<img src="https://i.imgur.com/Zti4Poe.png" height="80%" width="80%" alt="Task Management System"/>
 <br />
 <br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+MyDay:  <br/>
+<img src="https://i.imgur.com/Ls5isNl.png" height="80%" width="80%" alt="Task Management System"/>
 </p>
