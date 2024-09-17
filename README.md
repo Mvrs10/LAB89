@@ -1,20 +1,25 @@
 <h1>Task Management System</h1>
 
- ### 🏫 [Main Menu](https://imgur.com/fMYMPKe)
+ ### 🏫 [Demo Video](https://imgur.com/fMYMPKe)
 
 <h2>Description</h2>
-Project consists of a simple PowerShell script that walks the user through "zeroing out" (wiping) any drives that are connected to the system. The utility allows you to select the target disk and choose the number of passes that are performed. The PowerShell script will configure a diskpart script file based on the user's selections and then launch Diskpart to perform the disk sanitization.
+Project is a Windows Form Application that has 4 sections and various functionalities:
+<ul>
+ <li>Course Manager: Create course, change course details, import/export course list</li>
+ <li>Evaluation Manager: Add evaluations associated with the courses, change evaluation details, throw errors</li>
+ <li>Task Manager: Create task for a specific evaluation or course, display, add to MyDay section, import/export Task List</li>
+ <li>My Day: A list of users' chosen tasks based on the data in the application</li>
+</ul>
 <br />
 
 
 <h2>Languages and Utilities Used</h2>
 
-- <b>PowerShell</b> 
-- <b>Diskpart</b>
+- <b>C#</b> 
 
-<h2>Environments Used </h2>
+<h2>IDE Used </h2>
 
-- <b>Windows 10</b> (21H2)
+- <b>Visual Studio 2022</b> (21H2)
 
 <h2>Program walk-through:</h2>
 
